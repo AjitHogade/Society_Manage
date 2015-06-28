@@ -20,6 +20,10 @@
               <i class="glyphicon glyphicon-wrench"></i> Manage-Members
           </a>
       </li>
-     
+ <li <?php if($isActive[4]) echo 'class="active"' ?>>
+          <a href="/discuss" role="tab" data-toggle="tab">
+              <i class="glyphicon glyphicon-wrench"></i> Discussion
+          </a>
+      </li>     
      
     </ul>

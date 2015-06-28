@@ -1,20 +1,7 @@
 <?php
 
-/*
-|--------------------------------------------------------------------------
-| Application Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register all of the routes for an application.
-| It's a breeze. Simply tell Laravel the URIs it should respond to
-| and give it the Closure to execute when that URI is requested.
-|
+/*---------------------------------------Start-Login/Register-routes----------------------------*/
 
-Route::get('/userVerification', function()
-{
-	return View::make('member.userVerification');
-});
-*/
 Route::get('/userVerification',[
     'uses'=>'UserController@getUserVerification'
 ]);
@@ -58,13 +45,13 @@ Route::post('/adminLogin',[
 'uses'=>'UserController@postLogin',
 ]);
 
-Route::get('/memberLogin',[
+Route::get('/',[
 'as' => 'login',
 'uses'=>'UserController@getMemberLogin'
 ]);
 
 //checking login 
-Route::post('/memberLogin',[
+Route::post('/',[
 'as'=>'login',
 'method'=>'post',
 'uses'=>'UserController@postMemberLogin',
@@ -74,11 +61,11 @@ Route::get('/logout', array(
     'as' => 'logout',
     'uses' => 'UserController@logout'
     ));
-
+/*---------------------------------------End-Login/Register-routes----------------------------*/
 
 Route::group(array('before' => 'auth'), function()
 {
-
+/*----------------------------------------Start-Admin-Routes----------------------------------*/
 Route::get('/adminDesktop', function()
 {
 	return View::make('admin.adminDesktop');
@@ -102,4 +89,28 @@ Route::get('/manageMembers', function()
 {
 	return View::make('admin.manageMembers');
 });
+Route::get('/discuss', function()
+{
+    return View::make('admin.discuss');
+});
+Route::get('/memberDetails', function()
+{
+    return View::make('admin.memberDetails');
+});
+/*------------------------------------------End-Admin-Routes--------------------------------------*/
+
+
+
+/*------------------------------------------Start-Member-Routes--------------------------------------*/
+Route::get('/memberDesktop',[
+'as' => 'memberDesktop',
+'uses'=>'memberController@index'
+]);
+
+
+
+
+
+/*------------------------------------------End-Member-Routes--------------------------------------*/
+
 });

@@ -43,7 +43,7 @@
       <ul class="nav navbar-nav navbar-right">
         <li></li>
         <li>
-          <a href="/memberLogin"> Member-Login</a>
+          <a href="/"> Member-Login</a>
             <!-- <ul class="dropdown-menu">
               <li><a href="#">Action</a></li>
               <li><a href="#">Another action</a></li>

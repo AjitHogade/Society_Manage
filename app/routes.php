@@ -119,7 +119,7 @@ Route::get('/memberInbox', function()
 
 Route::get('/memberMessage', function()
 {
-    return View::make('member.memberInbox');
+    return View::make('member.memberMessage');
 });
 
 Route::get('/memberAllTopics', function()

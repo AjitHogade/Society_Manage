@@ -2,16 +2,17 @@
 @section('content')
 
 <div class="col-xs-3">
-	<?php 
+
+	<?php
 	$tab = "1"; 
-	$isActive = array(1,0,0,0,0,0,0,0,0,0);
+	$isActive = array(0,1,0,0,0,0,0,0,0,0);
 	?>
 	@include('layouts.accord')
-{{$tab}};
+
 	</div>
 
 	<div class="col-xs-9" >
 	<div class="panel panel-default" style = "width:100%;height:85%;padding-left:50px">  
-		hiiii
+		Notification
 	</div>
 @stop

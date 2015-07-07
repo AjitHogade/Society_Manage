@@ -19,7 +19,7 @@ class MemberController extends \BaseController {
 			$member->mobile = Input::get('mobile');
 			$member->flat_area = Input::get('flat_area');
 			$member->amt = Input::get('amt');
-			$member->created_by = Input::get('');
+			$member->created_by = Auth::getuser()->id;
 			
 			
 			Mail::send('member.mails.username', array('fname'=>Input::get('name'),'user'=>Input::get('username')),function($message){
@@ -49,10 +49,9 @@ class MemberController extends \BaseController {
 	 */
 	public function index()
 	{
-		Route::get('/memberDesktop', function()
-{
-    return View::make('admin.memberDesktop');
-});
+
+    return View::make('member.memberDesktop');
+
 	}
 
 

@@ -49,10 +49,9 @@ class MemberController extends \BaseController {
 	 */
 	public function index()
 	{
-		Route::get('/memberDesktop', function()
-{
-    return View::make('admin.memberDesktop');
-});
+
+    return View::make('member.memberDesktop');
+
 	}
 
 

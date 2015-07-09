@@ -14,8 +14,8 @@
 
 <!-- Style CSS -->
 <link rel="stylesheet" type="text/css" href="/media/css/style.css">
-<!-- CSS to manage tagit while adding clients -->
-<link href="/media/css/tagit-awesome-blue.css" type="text/css" rel="stylesheet">
+<!-- CSS to manage tagit while adding clients 
+<link href="/media/css/tagit-awesome-blue.css" type="text/css" rel="stylesheet">-->
 
 
 <!-- Bootstrap JS -->
@@ -25,7 +25,12 @@
 <script type="text/javascript" src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
 <!--<script src="/media/js/jquery-ui.min.js"></script>-->
 <!-- TAG-IT JS -->
-<script type="text/javascript" src="/media/js/tagit.js" charset="UTF-8"></script>
+<!-- <script type="text/javascript" src="/media/js/tagit.js" charset="UTF-8"></script> -->	
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<!-- d -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
 
 </head>
 <body>

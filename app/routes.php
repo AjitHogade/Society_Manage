@@ -107,6 +107,52 @@ Route::get('/memberDesktop',[
 'uses'=>'memberController@index'
 ]);
 
+Route::get('/memberNotification', function()
+{
+    return View::make('member.memberNotification');
+});
+
+Route::get('/memberInbox', function()
+{
+    return View::make('member.memberInbox');
+});
+
+Route::get('/memberMessage', function()
+{
+    return View::make('member.memberMessage');
+});
+
+Route::get('/memberAllTopics', function()
+{
+    return View::make('member.memberAllTopics');
+});
+
+Route::get('/memberCreateTopic', function()
+{
+    return View::make('member.memberCreateTopic');
+});
+
+Route::get('/memberEvents', function()
+{
+    return View::make('member.memberEvents');
+});
+
+Route::get('/memberOthers', function()
+{
+    return View::make('member.memberOthers');
+});
+
+Route::get('/memberComplaint', function()
+{
+    return View::make('member.memberComplaint');
+});
+
+Route::get('/memberSugestion', function()
+{
+    return View::make('member.memberSugestion');
+});
+
+
 
 
 

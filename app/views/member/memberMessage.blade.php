@@ -11,7 +11,8 @@ $tab = "2";
 	</div>
 
 	<div class="col-xs-9" >
-	<div class="panel panel-default" style = "width:100%;height:85%;padding-left:50px">  
+	<div class="panel panel-default" style = "width:100%;height:84.5%;padding-left:50px"> 
+  <div style="height=auto" >
 		<h3><center>Write Quick Message</center></h3><br />
 {{ Form::open(array('action'=>'MemberController@addMember', 'method' => 'post')) }}
 
@@ -33,11 +34,18 @@ $tab = "2";
 </td>
 
 </tr>
-
+<tr>
+  <td></td>
+  <td><div style ="margin-left:80%;margin-top:-0.5%;width:53%">
+{{ Form::submit('Add to drafts',array('id'=>'submit','class'=>'btn btn-warning')) }}
+{{ Form::submit('Send',array('id'=>'submit','class'=>'btn btn-primary')) }}</div>
+</td>
+</tr>
      
-      </tbody>
+ </tbody>    
 </table>
-<div style = "float:right;width:53%">{{ Form::submit('Send!',array('id'=>'submit','class'=>'btn btn-primary')) }}
-
-	</div>
+</div>
+</div>
+</div>
+ 
 @stop

@@ -10,7 +10,8 @@ $tab = "3";
 	</div>
 
 	<div class="col-xs-9" >
-	<div class="panel panel-default" style = "width:100%;height:85%;padding-left:50px">  
+	<div class="panel panel-default" style = "width:100%;height:84.5%;padding-left:50px"> 
+  <div style="height:auto"> 
 	<h3><center>Create Topic</center></h3><br />
 {{ Form::open(array('action'=>'MemberController@addMember', 'method' => 'post')) }}
 
@@ -18,30 +19,29 @@ $tab = "3";
         <tbody>
       <tr>
         <td style="width:10%;"><h4>Title:</h4></td>
-        <td>{{ Form::text('name',null,array('id'=>'name','class'=>'form-control','placeholder'=>'Add reciepiants','required'=>'')) }}</td>
+        <td>{{ Form::text('name',null,array('id'=>'name','class'=>'form-control','placeholder'=>'Add receipiants','required'=>'')) }}</td>
         
       </tr>
-        
-      <tr>
-      	<td><h4>Short-Description:</h4></td>
-        <td> {{ Form::text('flat_no',null,array('id'=>'flat_no','class'=>'form-control','placeholder'=>'Message subject','required'=>'')) }}</td>
-        </tr>
-
-      <tr><td><h4>Topic-Deatails:</h4></td>
-        <td><textarea name="content" style="width:100%"></textarea>
-</td>
- <tr><td><h4>Reason:</h4></td>
-                <td> {{ Form::text('flat_no',null,array('id'=>'flat_no','class'=>'form-control','placeholder'=>'Message subject','required'=>'')) }}</td>
+       <tr><td><h4>Reason:</h4></td>
+                <td> {{ Form::text('reason',null,array('id'=>'reason','class'=>'form-control','placeholder'=>'Message subject','required'=>'')) }}</td>
 
 </td>
 
 </tr>
+  
 
-     
-      </tbody>
+      <tr><td><h4>Topic-Details:</h4></td>
+        <td><textarea name="content" style="width:100%;height:auto"></textarea>
+</td>
+<tr>
+   <td></td>
+   <td>
+<div style = "margin-top:1%;margin-left:85%;width:53%">{{ Form::submit('Send/Approval',array('id'=>'submit','class'=>'btn btn-primary')) }}
+</div></td>
+</tr>
+</tbody>
 </table>
-<div style = "float:right;width:53%">{{ Form::submit('Send/Approval',array('id'=>'submit','class'=>'btn btn-primary')) }}
-
+</div>
 	</div>
 	</div>
 @stop

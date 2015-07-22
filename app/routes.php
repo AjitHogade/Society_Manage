@@ -89,14 +89,29 @@ Route::get('/manageMembers', function()
 {
 	return View::make('admin.manageMembers');
 });
-Route::get('/discuss', function()
-{
-    return View::make('admin.discuss');
-});
+
 Route::get('/memberDetails', function()
 {
     return View::make('admin.memberDetails');
 });
+
+
+
+Route::get('/discuss',[
+'method'=>'get',
+'uses'=>'MemberDiscussController@indexAdmin',
+]);
+Route::get('/discuss/pending',[
+'method'=>'get',
+'uses'=>'MemberDiscussController@pendingApprovals',
+]);
+Route::get('/discuss/create', function()
+{
+    return View::make('admin.discuss.create');
+});
+
+//Route::resource('discuss', 'DiscussionController');
+Route::resource('discussion', 'MemberDiscussController');
 /*------------------------------------------End-Admin-Routes--------------------------------------*/
 
 

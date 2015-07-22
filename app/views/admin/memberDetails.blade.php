@@ -9,7 +9,7 @@
     <div class="tab-content">
        <div class="tab-pane active fade in" id="home">
               <div class="panel panel-default" style = "height:75%;">  
-               <div class="panel-heading" style = "height:40px;background-color:#333333;color:white "><h5><a href="/allMembers"><i class="glyphicon glyphicon-fast-backward"></i></a>    Member Details</h5></div>
+               <div class="panel-heading" style = "height:40px;background-color:#333333;color:white"><h5><a href="/allMembers"><i class="fa fa-mail-reply-all" style="font-size:15px;color:white"></i></a>    Member Details</h5></div>
                     <div class="panel-body">
                         <?php
 $id = $_GET['id'];
@@ -89,3 +89,11 @@ else{
 </div>
 
 @stop
+
+
+
+
+
+
+
+

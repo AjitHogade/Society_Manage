@@ -27,12 +27,12 @@ $tab = "5";
   
 
       <tr><td><h4>Your Complaint:</h4></td>
-        <td><textarea name="content" style="width:100%;height:auto"></textarea>
+        <td><textarea name="content" style="width:100%;height:155%"></textarea>
 </td>
 <tr>
    <td></td>
    <td>
-<div style = "margin-top:1%;margin-left:82%;width:53%">{{ Form::submit('Send your complaint',array('id'=>'submit','class'=>'btn btn-primary')) }}
+<div style = "margin-top:1%;margin-left:81%;width:53%">{{ Form::submit('Send your complaint',array('id'=>'submit','class'=>'btn btn-primary')) }}
 </div></td>
 </tr>
 </tbody>

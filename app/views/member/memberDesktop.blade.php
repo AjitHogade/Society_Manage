@@ -7,7 +7,7 @@
 	$isActive = array(1,0,0,0,0,0,0,0,0,0);
 	?>
 	@include('layouts.accord')
-{{$tab}};
+
 	</div>
 
 	<div class="col-xs-9" >

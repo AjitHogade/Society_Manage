@@ -31,23 +31,24 @@ $members = User::where('role','=','member')->get();
         <td>{{$member->mobile}}</td>
                  <td><?php 
 if($member->password == null || $member->password == ""){
-    echo '<center><icon style ="color:red" class="glyphicon glyphicon-exclamation-sign"></icon></center>';
+    echo '<center><icon style ="color:red" class="fa fa-exclamation-circle"></icon></center>';
 
 }
 else{
-    echo'<center><icon style ="color:green" class="glyphicon glyphicon-ok-sign"></icon></center>';
+    echo'<center><icon style ="color:green" class="fa fa-check"></icon></center>';
 }
                  ?></td>
                          <td><?php 
 if($member->active == 0 || $member->active == "0"){
-    echo '<center><icon class="glyphicon glyphicon-record"></icon></center>';
+    echo '<center><icon class="fa fa-circle" style="color:red"></icon></center>';
 
 }
 else{
-    echo'<center><icon style ="color:green" class="glyphicon glyphicon-record"></icon></center>';
+    echo'<center><icon style ="color:green" class="fa fa-circle"></icon></center>';
 }
                  ?></td>  
                   <td>
+          
           <div class="btn btn-primary" onclick="AsyncConfirmYesNo()"><i class="glyphicon glyphicon-edit"></i> Edit</div>
           <div class="btn btn-warning"><i class="glyphicon glyphicon-minus-sign"></i> Block</div>
           <div class="btn btn-danger"><i class="glyphicon glyphicon-trash"></i> Delete</div>

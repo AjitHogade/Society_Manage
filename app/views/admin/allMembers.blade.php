@@ -25,7 +25,7 @@ tr:hover td {
 
 
 
-<table  class="table">
+<table  class="table" style = "width:100%">
     <thead>
         <tr>
             <th>Name</th>
@@ -47,11 +47,11 @@ $members = User::where('role','=','member')->get();
         <td>{{$member->mobile}}</td>
         <td><?php 
 if($member->password == null || $member->password == ""){
-    echo '<center><icon style ="color:red" class="glyphicon glyphicon-exclamation-sign"></icon></center>';
+    echo '<center><icon style ="color:red" class="fa fa-exclamation-circle"></icon></center>';
 
 }
 else{
-    echo'<center><icon style ="color:green" class="glyphicon glyphicon-ok-sign"></icon></center>';
+    echo'<center><icon style ="color:green" class="fa fa-check"></icon></center>';
 }
                  ?></td>
      </tr>

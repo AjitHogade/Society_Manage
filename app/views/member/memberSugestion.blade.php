@@ -27,7 +27,7 @@ $tab = "5";
   
 
       <tr><td><h4>Your Suggestions:</h4></td>
-        <td><textarea name="content" style="width:100%;height:auto"></textarea>
+        <td><textarea name="content" style="width:100%;height:155%"></textarea>
 </td>
 <tr>
    <td></td>

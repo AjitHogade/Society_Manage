@@ -4,8 +4,8 @@
 <div class="col-md-10 col-md-offset-1">
 	 <?php $isActive = array(0,0,1,0,0); $member_names = array(); ?> 
 			  @include('layouts.tab')
-			  <div class="panel panel-default" style = "min-height:75%">  
-			   <div class="panel-heading" style = "height:35px;background-color:#333333;color:white	"><h5><center>Add Details</center></h5></div>
+			  <div class="panel panel-default" style = "height:75%">  
+         <div class="panel-heading" style = "height:40px;background-color:#333333;color:white "><h5>Add Member</h5></div>
                     <div class="panel-body">
   <h3>Note:</h3><h4>The filled up form registers the new members in your society.After the form successfully filled up,the mail will be sent to user which allows
 the member to create his/her own password which will be confidential.So ask the member to provide the valid email address for the verification.</h4>

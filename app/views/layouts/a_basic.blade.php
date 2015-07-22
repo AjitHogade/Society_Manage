@@ -24,6 +24,7 @@
 <!-- JQuery JS -->
 <script src="/media/js/jquery.js"></script>
 <script src="/media/js/jquery-ui.js"></script>
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 <!-- <script type="text/javascript" src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script> -->
 <!--<script src="/media/js/jquery-ui.min.js"></script>-->
 <!-- TAG-IT JS -->

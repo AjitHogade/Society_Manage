@@ -31,8 +31,33 @@ class UserController extends \BaseController {
 	 */
 	public function store()
 	{
-	
-$pass = Input::get('password');
+	 $userdata = array(
+                    'name'=>Input::get('name'),
+                'username' => Input::get('username'),
+                'email' => Input::get('email'),
+                'password' => Input::get('password'),
+                'password_confirmation' => Input::get('password_confirmation'),
+            );
+	 $rules = array(
+               
+                 'name'=>'required',
+                  'username'=>'required',
+                  'email'=>'required|email',
+                   'password'=>'required',
+                     'password_confirmation'=>'required|same:password',
+            );
+
+	 $validation = Validator::make($userdata, $rules);
+
+
+       if($validation->fails())
+       {        
+               return Redirect::back()->withInput()->withErrors($validation);
+               // return Redirect::to('signup')->withErrors($validation)->withInput();
+       } 
+       else
+       {
+   $pass = Input::get('password');
 		    $user = new User;
 			$user->fname = Input::get('name');
 			$user->username = Input::get('username');
@@ -47,6 +72,10 @@ $pass = Input::get('password');
 			// $user->created_by = Input::get('name');
 			 $user->save();
 			echo "SAVED";
+
+           return Redirect::to('adminLogin');
+        }
+
 }
 		// try{
   //        $user = Sentry::getUserProvider()->create([

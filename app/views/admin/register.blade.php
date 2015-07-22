@@ -97,29 +97,58 @@
       <div class="panel panel-default">
                     <div class="panel-heading">Register</div>
                     <div class="panel-body">
-     
         {{Form::open(array('id'=>'contactform','file'=>true,'method' => 'post'))}}
         	<table class="table">
         <tbody>
       <tr>
         <td><h4>Name:</h4></td>
-        <td>{{ Form::text('name',null,array('id'=>'name','class'=>'form-control','placeholder'=>'Enter your full Name','required'=>'')) }}</td>
-      </tr>
+             
+
+        <td class="form-group @if ($errors->has('name')) has-error @endif">
+        {{ Form::text('name',null,array('id'=>'name','class'=>'form-control','placeholder'=>'Enter your full Name')) }}
+                
+
+  
+ 
+            </td>
+ </tr>
         <tr>
         <td><h4>Username:</h4></td>
-        <td> {{ Form::text('username',null,array('id'=>'username','class'=>'form-control','placeholder'=>'Username','required'=>'')) }}
-</td></tr>
-<tr>
+        <td class="form-group @if ($errors->has('username')) has-error @endif"> 
+        {{ Form::text('username',null,array('id'=>'username','class'=>'form-control','placeholder'=>'Username')) }}
+              <br>
+
+            <!-- {{ $errors->first('username', '<span class=error>:messages</span>') }}-->
+        </td>
+</tr>
+       <tr>
        <td><h4>Email::</h4></td>
-       <td> {{ Form::text('email',null,array('id'=>'password','class'=>'form-control','placeholder'=>'Password','required'=>'')) }}</td>
-        </tr>
+       <td class="form-group @if ($errors->has('username')) has-error @endif">  
+       {{ Form::text('email',null,array('id'=>'password','class'=>'form-control','placeholder'=>'Email')) }}
+               <br>
+
+             <!-- {{ $errors->first('email', '<span class=error>:messages</span>') }}-->
+       </td>
+ </tr>
              <tr> <td><h4>Password:</h4></td>
-       <td> {{ Form::password('password',array('id'=>'password','class'=>'form-control','placeholder'=>'Password','required'=>'')) }}</td>
-       </tr>
+       <td class="form-group @if ($errors->has('username')) has-error @endif"> 
+       {{ Form::password('password',array('id'=>'password','class'=>'form-control','placeholder'=>'Password')) }}
+                 <br>
+
+             <!-- {{ $errors->first('password', '<span class=error>:messages</span>') }}-->
+       </td>
+ </tr>
       <tr> <td><h4>Confirm-Password:</h4></td>
-       <td>{{ Form::password('password_confirmation',array('id'=>'password','class'=>'form-control','placeholder'=>'Confirm-Password','required'=>'')) }}</td>
-         </tr>      
-       <tr> <td></td><td>{{ Form::submit('Resgister!',array('id'=>'submit','class'=>'btn btn-primary')) }}</td></tr>
+       <td class="form-group @if ($errors->has('username')) has-error @endif">
+       {{ Form::password('password_confirmation',array('id'=>'password','class'=>'form-control','placeholder'=>'Confirm-Password')) }}
+                 <br>
+
+               {{ $errors->first('password_confirmation', '<span class=error>:messages</span>') }}
+       </td>
+ </tr>      
+       <tr> <td></td><td>{{ Form::submit('Resgister!',array('id'=>'submit','class'=>'btn btn-primary')) }}</td>
+
+  </tr>
         
         </tbody></table>
       </div></div></div>
@@ -127,6 +156,7 @@
 {{ Form::close() }}
      </div>
     </div>  
-
+</div>
 </body>
 
+</html>

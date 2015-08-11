@@ -117,6 +117,9 @@ Route::resource('discussion', 'MemberDiscussController');
 
 
 /*------------------------------------------Start-Member-Routes--------------------------------------*/
+Route::resource('message', 'MessageController');
+
+
 Route::get('/memberDesktop',[
 'as' => 'memberDesktop',
 'uses'=>'memberController@index'
@@ -127,15 +130,15 @@ Route::get('/memberNotification', function()
     return View::make('member.memberNotification');
 });
 
-Route::get('/memberInbox', function()
-{
-    return View::make('member.memberInbox');
-});
+// Route::get('/memberInbox', function()
+// {
+//     return View::make('member.memberInbox');
+// });
 
-Route::get('/memberMessage', function()
-{
-    return View::make('member.memberMessage');
-});
+//Route::get('/memberMessage', function()
+//{
+//    return View::make('member.memberMessage');
+//});
 
 Route::get('/memberAllTopics', function()
 {

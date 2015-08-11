@@ -28,10 +28,10 @@
             <div id="collapseTwo"<?php if($tab == "2") echo 'class="panel-collapse collapse in"'; else echo 'class="panel-collapse collapse"'?>>
                 <div class="panel-body">
                     <div class="panel panel-default"<?php if($isActive[2]) echo 'class="panel panel-primary" style="background-color:#428bca;color:white"' ?>>
-                    <p> <center><a href="/memberInbox"<?php if($isActive[2]) echo 'style="color:white"' ?>>Inbox</a></center></p></div>
+                    <p> <center><a href="/message"<?php if($isActive[2]) echo 'style="color:white"' ?>>Inbox</a></center></p></div>
 
                     <div class="panel panel-default"<?php if($isActive[3]) echo 'class="panel panel-primary" style="background-color:#428bca;color:white"' ?>>
-                    <p> <center><a href="/memberMessage"<?php if($isActive[3]) echo 'style="color:white"' ?>>Send-Message</a></center></p></div>
+                    <p> <center><a href="/message/create"<?php if($isActive[3]) echo 'style="color:white"' ?>>Send-Message</a></center></p></div>
                 </div>
             </div>
         </div>

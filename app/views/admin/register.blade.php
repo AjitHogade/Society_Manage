@@ -131,7 +131,7 @@
        </td>
  </tr>
              <tr> <td><h4>Password:</h4></td>
-       <td class="form-group @if ($errors->has('username')) has-error @endif"> 
+       <td class="form-group @if ($errors->has('password')) has-error @endif"> 
        {{ Form::password('password',array('id'=>'password','class'=>'form-control','placeholder'=>'Password')) }}
                  <br>
 
@@ -139,7 +139,7 @@
        </td>
  </tr>
       <tr> <td><h4>Confirm-Password:</h4></td>
-       <td class="form-group @if ($errors->has('username')) has-error @endif">
+       <td class="form-group @if ($errors->has('password_confirmation')) has-error @endif">
        {{ Form::password('password_confirmation',array('id'=>'password','class'=>'form-control','placeholder'=>'Confirm-Password')) }}
                  <br>
 

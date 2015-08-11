@@ -104,6 +104,28 @@ public function getLogin(){
 
 public function postLogin()
 {
+ $userdata = array(
+                    
+                'username' => Input::get('username'),
+                'password' => Input::get('password'),
+            );
+	 $rules = array(
+               
+                  'username'=>'required',
+                   'password'=>'required',
+            );
+
+	 $validation = Validator::make($userdata, $rules);
+
+
+       if($validation->fails())
+       {     
+     
+               return Redirect::back()->withInput()->withErrors($validation);
+               // return Redirect::to('signup')->withErrors($validation)->withInput();
+       } 
+       else
+  {
 	$role = "admin";
     // Login credentials
     $credentials = array(
@@ -114,12 +136,16 @@ public function postLogin()
 
     // Authenticate the user
    if (Auth::attempt($credentials))
-{
-    return Redirect::intended('adminDesktop');
-}
+    {
+
+          return Redirect::intended('adminDesktop');
+    }
 else{
-	return "failed";
-}
+	         
+              return Redirect::back()->withErrors(['Login Failed', ' '])->withInput();      
+  }
+ 
+    }
 }
 
 

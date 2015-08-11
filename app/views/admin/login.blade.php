@@ -85,16 +85,20 @@
         <tbody>
         <tr>
         <td><h4>Username:</h4></td>
-        <td> {{ Form::text('username',null,array('id'=>'username','class'=>'form-control','placeholder'=>'Username','required'=>'')) }}
+        <td class="form-group @if ($errors->has('username')) has-error @endif"> {{ Form::text('username',null,array('id'=>'username','class'=>'form-control','placeholder'=>'Username')) }}
+
         </td></tr>
         <tr> <td><h4>Password:</h4></td>
-       <td> {{ Form::password('password',array('id'=>'password','class'=>'form-control','placeholder'=>'Password','required'=>'')) }}</td>
+       <td class="form-group @if ($errors->has('password')) has-error @endif"> {{ Form::password('password',array('id'=>'password','class'=>'form-control','placeholder'=>'Password')) }}</td>
        </tr>
        <tr> <td></td><td><div  style="float:right">{{ Form::submit('Login!',array('id'=>'submit','class'=>'btn btn-primary')) }}</td></tr>
         </div>
         </tbody></table>
-      </div></div></div>
-  </div>
+         </div></div>
+    @if($errors->has())
+    <div class="alert alert-danger">{{ $errors->first() }}</div>
+  @endif
+  </div></div>
 {{ Form::close() }}
      </div>
     </div>  

@@ -41,7 +41,7 @@ class MemberController extends \BaseController {
             ->update(array('password' => $password));
 			echo "SAVED";
 
-			 return Redirect::intended('member.Login');
+			// return Redirect::intended('member.Login');
     }
 
 	/**

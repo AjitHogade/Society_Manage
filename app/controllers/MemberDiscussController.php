@@ -19,28 +19,6 @@ $discussion = Discussion::where('approved',1)->get();
 
 	}
 
-	public function indexAdmin()
-	{
-				
-				$discussion = Discussion::where('approved',1)->get();
-
-        // load the view and pass the nerds
-        return View::make('admin.discuss.index')
-            ->with('discussions', $discussion);
-
-	}
-
-	public function pendingApprovals()
-	{
-				
-				$discussion = Discussion::where('approved',0)->get();
-
-        // load the view and pass the nerds
-        return View::make('admin.discuss.awaiting_topic')
-            ->with('discussions', $discussion);
-
-	}
-
 
 
 	/**

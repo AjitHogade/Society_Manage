@@ -30,12 +30,11 @@ tr:hover td {
 </style>
 <div class="col-xs-3">
 	<?php 
-$tab = "3";
-	$isActive = array(0,0,0,0,1,0,0,0,0,0);
-	    $author = $message->$reciever_id;
-
+$tab = "2";
+	$isActive = array(0,0,1,0,0,0,0,0,0,0);
+   $sender = $messages->sender_id;
     // $name = User::all()->where('id','=',$author)->get();
-     $name = DB::table('users')->where('id', $author)->pluck('fname');
+     $name = DB::table('users')->where('id', $sender)->pluck('fname');
 ?>
 	@include('layouts.accord')
 
@@ -47,33 +46,27 @@ $tab = "3";
 		<table  class="table" style="width:100%">
    
     <tbody >
-    
+  
      
 
         <tr>
-            <td style="width:20%;font-style: italic; ">From:</td>
-            <td><b></b></td>
+            <td style="width:5%;font-style: italic; ">From:</td>
+            <td><b>{{$name}}</b></td>
         </tr>
-        <tr>
-            <td style="font-style: italic;">Reason:</td>
-            <td><b> </td>
-        </tr>
-        <tr>
-            <td style="font-style: italic;">Description:</td>
-            <td style="display: inline-block;"><div style="max-height:150px; overflow:auto;">{{ $message->msg_body }}</td>
-        </tr>
+       
+        
          <tr>
-            <td></td><td><div  style="float:right">{{"Created by ".'<b >'.$name.'</b>'." "}}{{"on ".'<b>'.$message->created_at.'</b>'}}</div></td>
+            <td></td><td><div  style="float:right">{{"Send on ".'<b>'.$messages->created_at.'</b>'}}</div></td>
         </tr>
         <tr><td></td><td></td></tr>
-            
 
             
  </tbody>
 </table>
-<div><h4>All Responses</h4>No Responses till yet...........................</div>
+<div>{{ $messages->msg_body }}</div>
 <div class="child">
 <b>Write Here</b><span style="float:right" class="btn btn-primary btn-xs">Post</span>
+<span style="float:right" >{{ Form::submit('Reply',array('id'=>'submit','class'=>'btn btn-primary btn-xs')) }}</span>
   <textarea id="area4" style = "width:100%;">
 
 </textarea></div>	</div></div>

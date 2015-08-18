@@ -97,20 +97,36 @@ Route::get('/memberDetails', function()
 
 
 
-Route::get('/discuss',[
-'method'=>'get',
-'uses'=>'MemberDiscussController@indexAdmin',
+// Route::get('/discuss',[
+// 'method'=>'get',
+// 'uses'=>'MemberDiscussController@indexAdmin',
+// ]);
+// Route::get('/discuss/pending',[
+// 'method'=>'get',
+// 'uses'=>'MemberDiscussController@pendingApprovals',
+// ]);
+// Route::get('/discuss/create', function()
+// {
+//     return View::make('admin.discuss.create');
+// });
+Route::get('/discuss/rejected',[
+ 'method'=>'get',
+  'uses'=>'AdminDiscussController@rejectedTopics',
 ]);
-Route::get('/discuss/pending',[
-'method'=>'get',
-'uses'=>'MemberDiscussController@pendingApprovals',
-]);
-Route::get('/discuss/create', function()
-{
-    return View::make('admin.discuss.create');
-});
 
-//Route::resource('discuss', 'DiscussionController');
+Route::get('/discuss/awaitingtopics',[
+ 'method'=>'get',
+  'uses'=>'AdminDiscussController@awaiting_Topics',
+]);
+
+Route::get('/discuss/closedtopics',[
+ 'method'=>'get',
+  'uses'=>'AdminDiscussController@closed_Topics',
+]);
+Route::resource('discuss', 'AdminDiscussController');
+
+
+
 Route::resource('discussion', 'MemberDiscussController');
 /*------------------------------------------End-Admin-Routes--------------------------------------*/
 

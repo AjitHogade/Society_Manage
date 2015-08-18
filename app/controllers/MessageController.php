@@ -80,7 +80,7 @@ return "Saved";
 	{
 		
         return View::make('member.message.show')
-            ->with('message', Message::find($id));
+            ->with('messages', Message::find($id));
 	}
 
 

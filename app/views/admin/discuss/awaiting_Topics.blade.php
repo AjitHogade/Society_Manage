@@ -25,9 +25,19 @@ tr:hover td {
                     	<div class="col-xs-2">
 <a href="/discuss/create" class="btn btn-default" style="width:100%;margin-bottom:8px"><i class="glyphicon glyphicon-minus-sign"></i>Create Topic</a>
 <a href="/discuss" class="btn btn-default" style="width:100%;margin-bottom:8px"><i class="glyphicon glyphicon-minus-sign"></i>Active Topics</a>
+<<<<<<< HEAD:app/views/admin/discuss/awaiting_topic.blade.php
 <a href="/discuss/reject" class="btn btn-default" style="width:100%;margin-bottom:8px"><i class="glyphicon glyphicon-minus-sign"></i>Rejected Topics</a>
 <a href="/discuss/pending" class="btn btn-primary" style="width:100%;margin-bottom:8px"><i class="glyphicon glyphicon-minus-sign"></i>Awaiting-Approvals</a>
 <a href="/discuss/closed" class="btn btn-default" style="width:100%;margin-bottom:8px"><i class="glyphicon glyphicon-minus-sign"></i>Closed Topic</a>
+=======
+<a href="/discuss/rejected" class="btn btn-default" style="width:100%;margin-bottom:8px"><i class="glyphicon glyphicon-minus-sign"></i>Regected Topics</a>
+<a href="/discuss/awaitingtopics" class="btn btn-primary" style="width:100%;margin-bottom:8px"><i class="glyphicon glyphicon-minus-sign"></i>Awaiting-Approvals</a>
+
+<a href="/discuss/create" class="btn btn-default" style="width:100%;margin-bottom:8px"><i class="glyphicon glyphicon-minus-sign"></i>Create Topic</a>
+
+<a href="/discuss/create" class="btn btn-default" style="width:100%;margin-bottom:8px"><i class="glyphicon glyphicon-minus-sign"></i>Approval</a>
+<a href="/discuss/closedtopics" class="btn btn-default" style="width:100%;margin-bottom:8px"><i class="glyphicon glyphicon-minus-sign"></i>Closed Topic</a>
+>>>>>>> 29ecc32bdc0eec228c4edba07642eb84cd2a9167:app/views/admin/discuss/awaiting_Topics.blade.php
 
                     	</div> 
           <div class="col-xs-10">
@@ -53,7 +63,11 @@ tr:hover td {
 //$accounts = Account::join('accounts_members','accounts_members.account_id','=','accounts.id')->where('accounts_members.member_id','=',$user_id)->get(array('accounts.id','accounts.name'));
 
      ?>
+<<<<<<< HEAD:app/views/admin/discuss/awaiting_topic.blade.php
         <tr data-href="{{ URL::to('discuss/_pending/' . $value->id) }}">    
+=======
+        <tr data-href="{{ URL::to('discuss/' . $value->id) }}">    
+>>>>>>> 29ecc32bdc0eec228c4edba07642eb84cd2a9167:app/views/admin/discuss/awaiting_Topics.blade.php
             
             <td>{{ $name}}</td>
             <td>{{ $value->title }}</td>
@@ -74,6 +88,7 @@ tr:hover td {
 </div>
 </div>
 </div>
+<<<<<<< HEAD:app/views/admin/discuss/awaiting_topic.blade.php
 <script>
 $(document).ready(function(){
     $('table tr').click(function(){
@@ -82,4 +97,14 @@ $(document).ready(function(){
     });
 });
 </script>
+=======
+ <script>
+    $(document).ready(function(){
+    $('table tr').click(function(){
+        window.location = $(this).data('href');
+        return false;
+     });
+ });
+ </script>
+>>>>>>> 29ecc32bdc0eec228c4edba07642eb84cd2a9167:app/views/admin/discuss/awaiting_Topics.blade.php
 @stop

@@ -15,7 +15,8 @@ tr:hover td {
 <div class="col-xs-3">
 	<?php 
 $tab = "2";
-	$isActive = array(0,0,1,0,0,0,0,0,0,0);?>
+	$isActive = array(0,0,1,0,0,0,0,0,0,0);
+        $message = Message::All();?>
 
 	@include('layouts.accord')
 

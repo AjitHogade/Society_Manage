@@ -42,12 +42,12 @@ $tab = "2";
 
   ?>
       <tr data-href="{{ URL::to('message/' . $value->id) }}">    
-            
+            <div>
             <td>{{ $sender_name}}</td>
             <td>{{ $value->msg_body }}</td>
             <td>{{$value->created_at}}</td>
             
-
+</div>
             @endforeach
     
  </tbody>

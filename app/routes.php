@@ -61,6 +61,10 @@ Route::get('/logout', array(
     'as' => 'logout',
     'uses' => 'UserController@logout'
     ));
+Route::get('/discuss/allTopics',[
+'method'=>'get',
+'uses'=>'AdminController@allTopics',
+]);
 /*---------------------------------------End-Login/Register-routes----------------------------*/
 
 Route::group(array('before' => 'auth'), function()
@@ -97,28 +101,31 @@ Route::get('/memberDetails', function()
 
 
 
-Route::get('/discuss',[
-'method'=>'get',
-'uses'=>'MemberDiscussController@indexAdmin',
-]);
 Route::get('/discuss/pending',[
 'method'=>'get',
-'uses'=>'MemberDiscussController@pendingApprovals',
+'uses'=>'DiscussionController@pendingApprovals',
 ]);
-Route::get('/discuss/create', function()
-{
-    return View::make('admin.discuss.create');
-});
+Route::get('/discuss/reject',[
+'method'=>'get',
+'uses'=>'DiscussionController@rejectedTopic',
+]);
+Route::get('/discuss/closed',[
+'method'=>'get',
+'uses'=>'DiscussionController@closededTopic',
+]);
+Route::get('discuss/_pending/{id}',[
+'method'=>'get',
+'uses'=>'DiscussionController@getPendingApproval',
+]);
+Route::resource('discuss', 'DiscussionController');
 
-//Route::resource('discuss', 'DiscussionController');
-Route::resource('discussion', 'MemberDiscussController');
 /*------------------------------------------End-Admin-Routes--------------------------------------*/
 
 
 
 /*------------------------------------------Start-Member-Routes--------------------------------------*/
 Route::resource('message', 'MessageController');
-
+Route::resource('discussion', 'MemberDiscussController');
 
 Route::get('/memberDesktop',[
 'as' => 'memberDesktop',
@@ -170,10 +177,17 @@ Route::get('/memberSugestion', function()
     return View::make('member.memberSugestion');
 });
 
+Route::get('/hello', function()
+{
+    return View::make('hello');
+});
 
 
 
-
+Route::get('/test', function()
+{
+    return View::make('test');
+});
 
 /*------------------------------------------End-Member-Routes--------------------------------------*/
 

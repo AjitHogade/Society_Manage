@@ -1,6 +1,6 @@
 <?php
 
-class AdminController extends \BaseController {
+class PhotoController extends \BaseController {
 
 	/**
 	 * Display a listing of the resource.
@@ -9,15 +9,9 @@ class AdminController extends \BaseController {
 	 */
 	public function index()
 	{
-		
+		//
 	}
 
-	public function allTopics()
-	{
-		$discussion = Discussion::join('users','users.id','=','discussion.created_by')->where('discussion.approved','=','1')->get(array('users.fname','discussion.title','discussion.reason','discussion.created_at'));
-	//	$discussion = Discussion::where('approved',1)->get();
-		return json_encode($discussion);
-	}
 
 	/**
 	 * Show the form for creating a new resource.
@@ -26,7 +20,7 @@ class AdminController extends \BaseController {
 	 */
 	public function create()
 	{
-
+		//
 	}
 
 
@@ -37,7 +31,10 @@ class AdminController extends \BaseController {
 	 */
 	public function store()
 	{
-    }
+		//
+	}
+
+
 	/**
 	 * Display the specified resource.
 	 *
@@ -70,7 +67,7 @@ class AdminController extends \BaseController {
 	 */
 	public function update($id)
 	{
-		
+		//
 	}
 
 
@@ -85,9 +82,5 @@ class AdminController extends \BaseController {
 		//
 	}
 
-	/*
-	* Searches user for sending friend request
-	*/
-	
 
 }

@@ -9,10 +9,44 @@ class DiscussionController extends \BaseController {
 	 */
 	public function index()
 	{
-		return View::make('admin.discuss.index');
+		$discussion = Discussion::where('approved',1)->get();
+		return View::make('admin.discuss.index')->with('discussions', $discussion);
 		
 	}
 
+    public function pendingApprovals()
+	{
+				
+				$discussion = Discussion::where('approved',0)->get();
+
+        // load the view and pass the nerds
+        return View::make('admin.discuss.awaiting_topic')
+            ->with('discussions', $discussion);
+
+	}
+
+
+    public function rejectedTopic()
+	{
+				
+				$discussion = Discussion::where('approved',-1)->get();
+
+        // load the view and pass the nerds
+        return View::make('admin.discuss.rejected_topic')
+            ->with('discussions', $discussion);
+
+	}
+
+	public function closededTopic()
+	{
+				
+				$discussion = Discussion::where('approved',2)->get();
+
+        // load the view and pass the nerds
+        return View::make('admin.discuss.closed_topic')
+            ->with('discussions', $discussion);
+
+	}
 
 	/**
 	 * Show the form for creating a new resource.
@@ -24,10 +58,7 @@ class DiscussionController extends \BaseController {
 		return View::make('admin.discuss.create');
 	}
 
-		public function mDiscussCreate()
-	{
-		
-	}
+	
 
 
 	/**
@@ -47,11 +78,24 @@ class DiscussionController extends \BaseController {
 	 * @param  int  $id
 	 * @return Response
 	 */
-	public function show($id)
+public function show($id)
 	{
-		//
-	}
+		//$discussions = Discussion::find($id);
+		//$discussions = Discussion::where('id', $id)->first();
 
+        // show the view and pass the nerd to it
+        return View::make('admin.discuss.show')
+            ->with('discuss', Discussion::find($id));
+}
+
+public function getPendingApproval($id)
+	{
+	
+
+        // show the view and pass the nerd to it
+        return View::make('admin.discuss.show_awaiting_approvals')
+            ->with('discuss', Discussion::find($id));
+}
 
 	/**
 	 * Show the form for editing the specified resource.

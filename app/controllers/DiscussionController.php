@@ -68,10 +68,14 @@ class DiscussionController extends \BaseController {
 	 */
 	public function store()
 	{
-		//
+		    
+
 	}
 
-
+    public function destroyed()
+	{
+		echo "rejected";
+	}
 	/**
 	 * Display the specified resource.
 	 *
@@ -96,7 +100,37 @@ public function getPendingApproval($id)
         return View::make('admin.discuss.show_awaiting_approvals')
             ->with('discuss', Discussion::find($id));
 }
+public function approve()
+{
+       $id = Input::get('topic_id');
+			DB::table('discussion')
+            ->where('id', $id)
+            ->update(array('approved' => 1));
+return Redirect::to('/discuss/pending')->with('message', 'Done');
+}
 
+public function disapprove()
+{
+
+ $id = Input::get('topic_id');
+		   DB::table('discussion')
+           ->where('id', $id)
+            ->update(array('approved' => -1));
+return Redirect::to('/discuss/pending')->with('message', 'Done');
+
+}
+
+
+public function updateResponses()
+	{
+		$topic_id = Input::get('topic_id');
+		$reply = new DiscussionResponses;
+			$reply->topic_id = Input::get('topic_id');
+			$reply->sender_id = Input::get('sender_id');
+			$reply->body = Input::get('reply');
+			$reply->save();
+			return Redirect::to('/discussion/'.$topic_id);  
+	}
 	/**
 	 * Show the form for editing the specified resource.
 	 *
@@ -127,9 +161,9 @@ public function getPendingApproval($id)
 	 * @param  int  $id
 	 * @return Response
 	 */
-	public function destroy($id)
+	public function destroy()
 	{
-		//
+		echo "reject";
 	}
 
 

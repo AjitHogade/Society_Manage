@@ -61,15 +61,73 @@ Route::get('/logout', array(
     'as' => 'logout',
     'uses' => 'UserController@logout'
     ));
-Route::get('/discuss/allTopics',[
-'method'=>'get',
-'uses'=>'AdminController@allTopics',
-]);
 /*---------------------------------------End-Login/Register-routes----------------------------*/
 
 Route::group(array('before' => 'auth'), function()
 {
 /*----------------------------------------Start-Admin-Routes----------------------------------*/
+/*----DISSCUTION------------------------------------------------------------------------------*/
+
+
+Route::get('/discuss/allTopics',[
+'method'=>'get',
+'uses'=>'ApiController@allTopics',
+]);
+
+
+Route::get('/discuss/allTopics',[
+'method'=>'get',
+'uses'=>'ApiController@allTopics',
+]);
+
+Route::get('/discuss/topicResponses/{id}',[
+'method'=>'get',
+'uses'=>'ApiController@topicResponse',
+]);
+
+Route::get('/discuss/allRejectedTopics',[
+'method'=>'get',
+'uses'=>'ApiController@allRejectedTopics',
+]);
+
+Route::get('/discuss/pending',[
+'method'=>'get',
+'uses'=>'DiscussionController@pendingApprovals',
+]);
+
+Route::get('/discuss/reject',[
+'method'=>'get',
+'uses'=>'DiscussionController@rejectedTopic',
+]);
+
+Route::get('/discuss/closed',[
+'method'=>'get',
+'uses'=>'DiscussionController@closededTopic',
+]);
+
+Route::get('discuss/_pending/{id}',[
+'method'=>'get',
+'uses'=>'DiscussionController@getPendingApproval',
+]);
+
+Route::resource('discuss', 'DiscussionController');
+
+Route::post('/acceptTopic',[
+'method'=>'post',
+'uses'=>'DiscussionController@approve',
+]);
+
+Route::post('/rejectTopic',[
+'method'=>'post',
+'uses'=>'DiscussionController@disapprove',
+]);
+
+Route::post('discussion/{id}',[
+'method'=>'post',
+'uses'=>'DiscussionController@updateResponses',
+]);
+//----------------------------------------------Ends Discussion---------------------------------------------------//
+
 Route::get('/adminDesktop', function()
 {
 	return View::make('admin.adminDesktop');
@@ -101,23 +159,6 @@ Route::get('/memberDetails', function()
 
 
 
-Route::get('/discuss/pending',[
-'method'=>'get',
-'uses'=>'DiscussionController@pendingApprovals',
-]);
-Route::get('/discuss/reject',[
-'method'=>'get',
-'uses'=>'DiscussionController@rejectedTopic',
-]);
-Route::get('/discuss/closed',[
-'method'=>'get',
-'uses'=>'DiscussionController@closededTopic',
-]);
-Route::get('discuss/_pending/{id}',[
-'method'=>'get',
-'uses'=>'DiscussionController@getPendingApproval',
-]);
-Route::resource('discuss', 'DiscussionController');
 
 /*------------------------------------------End-Admin-Routes--------------------------------------*/
 

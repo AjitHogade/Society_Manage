@@ -12,12 +12,7 @@ class AdminController extends \BaseController {
 		
 	}
 
-	public function allTopics()
-	{
-		$discussion = Discussion::join('users','users.id','=','discussion.created_by')->where('discussion.approved','=','1')->get(array('users.fname','discussion.title','discussion.reason','discussion.created_at'));
-	//	$discussion = Discussion::where('approved',1)->get();
-		return json_encode($discussion);
-	}
+	
 
 	/**
 	 * Show the form for creating a new resource.

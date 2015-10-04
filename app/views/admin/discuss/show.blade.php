@@ -32,15 +32,33 @@
                <div class="panel-heading" style = "height:40px;background-color:#333333;color:white "><h5>Discuss</h5></div>
                     <div class="panel-body">
                         <div class="row">
-                        <div class="col-xs-2">
+                        <div class="col-xs-3">
 <a href="/discuss/create" class="btn btn-default" style="width:100%;margin-bottom:8px"><i class="glyphicon glyphicon-minus-sign"></i>Create Topic</a>
-<a href="/discuss" class="btn btn-primary" style="width:100%;margin-bottom:8px"><i class="glyphicon glyphicon-minus-sign"></i>Active Topics</a>
-<a href="/discuss/reject" class="btn btn-default" style="width:100%;margin-bottom:8px"><i class="glyphicon glyphicon-minus-sign"></i>Rejected Topics</a>
-<a href="/discuss/pending" class="btn btn-default" style="width:100%;margin-bottom:8px"><i class="glyphicon glyphicon-minus-sign"></i>Awaiting-Approvals</a>
-<a href="/discuss/closed" class="btn btn-default" style="width:100%;margin-bottom:8px"><i class="glyphicon glyphicon-minus-sign"></i>Closed Topic</a>
 
+
+<a href="/discuss" class="btn btn-primary" style="width:100%;margin-bottom:8px"><i class="glyphicon glyphicon-minus-sign"></i>Active Topics
+  <span style="color:white;float:right;border-radius:8px;margin-top:-10px;margin-right:-15px;background-color:red;padding-right:5px;padding-left:5px">
+    {{Discussion::where('approved',1)->count();}}</span>
+</a>
+
+<a href="/discuss/reject" class="btn btn-default" style="width:100%;margin-bottom:8px"><i class="glyphicon glyphicon-minus-sign"></i>
+  Rejected Topics
+  <span style="color:white;float:right;border-radius:8px;margin-top:-10px;margin-right:-15px;background-color:red;padding-right:5px;padding-left:5px">
+  {{Discussion::where('approved',-1)->count();}}
+</span></a>
+
+<a href="/discuss/pending" class="btn btn-default" style="width:100%;margin-bottom:8px"><i class
+  ="glyphicon glyphicon-minus-sign"></i>Awaiting-Topics
+  <span style="text-align:center;color:white;float:right;border-radius:8px;margin-top:-10px;margin-right:-15px;background-color:red;padding-right:5px;padding-left:5px">
+  {{Discussion::where('approved',0)->count();}}
+</span></a>
+
+<a href="/discuss/closed" class="btn btn-default" style="width:100%;margin-bottom:8px"><i class="glyphicon glyphicon-minus-sign"></i>Closed Topics
+<span style="color:white;float:right;border-radius:8px;margin-top:-10px;margin-right:-15px;background-color:red;padding-right:5px;padding-left:5px">
+  {{Discussion::where('approved',3)->count();}}</span>
+  </a>
                         </div> 
-          <div class="col-xs-10">
+          <div class="col-xs-9">
 <div>
 <center><h4>{{ $discuss->title }}</h4></center> 
         <table  class="table" style="width:100%">

@@ -11,6 +11,38 @@ tr:hover td {
     font-style: italic; 
     position: static;
 }*/
+
+.triangle-right {
+  position:relative;
+  padding:15px;
+  margin:1em 0 3em;
+  color:#fff;
+  background:#075698; /* default background for browsers without gradient support */
+  /* css3 */
+  background:-webkit-gradient(linear, 0 0, 0 100%, from(#2e88c4), to(#075698));
+  background:-moz-linear-gradient(#2e88c4, #075698);
+  background:-o-linear-gradient(#2e88c4, #075698);
+  background:linear-gradient(#2e88c4, #075698);
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  border-radius:10px;
+}
+.triangle-right.right {
+  margin-right:40px;
+  background:#075698;
+}
+.triangle-right:after {
+  content:"";
+  position:absolute;
+  bottom:-20px; /* value = - border-top-width - border-bottom-width */
+  left:50px; /* controls horizontal position */
+  border-width:20px 0 0 20px; /* vary these values to change the angle of the vertex */
+  border-style:solid;
+  border-color:#075698 transparent;
+  /* reduce the damage in FF3.0 */
+  display:block;
+  width:0;
+}
 .child{
 
     position:absolute;
@@ -25,7 +57,7 @@ tr:hover td {
     margin-left:10px;
     width:100px;
     height:30px;
-    border-radius: 4px
+    border-radius: 10px
     box-sizing:border-box;
     -moz-box-sizing:border-box;
     -webkit-box-sizing:border-box;
@@ -51,7 +83,18 @@ span.speech
     -moz-box-shadow: 2px 2px 4px #888;
     box-shadow: 1px 1x 2px #888;
 }
-
+.speech:after {
+  content:"";
+  position:absolute;
+  bottom:-15px; /* value = - border-top-width - border-bottom-width */
+  left:10px; /* controls horizontal position */
+  border-width:15px 8px 0; /* vary these values to change the angle of the vertex */
+  border-style:solid;
+  border-color:#fff transparent;
+  /* reduce the damage in FF3.0 */
+  display:block;
+  width:0;
+}
 </style>
 <div class="col-xs-3">
 	<?php 
@@ -97,7 +140,8 @@ $tab = "3";
             
  </tbody>
 </table>
-<div style="background-color:#D2D2D2;padding-left:10px;padding-right:5px;padding-top:10px;padding-bottom:10px"><h4>All Responses</h4>
+<div id="all_chat" style="background-color:#E4E4E4;padding-left:10px;padding-right:5px;padding-top:10px;padding-bottom:10px"><h4>All Responses</h4>
+    <!--<p class="triangle-right right">But it could be any element you want.</p>-->
 <div class="all_reply" id="all_reply" style="overflow:auto">
 </div></div></div>
 <div class="child">
@@ -121,9 +165,15 @@ $tab = "3";
 $(document).ready(function(){
   // alert("hiiii")
   loadReply()
+  var user_id = '<?php echo $user_id; ?>';
+  $('#all_chat').scrollTop($('#all_chat')[0].scrollHeight);
+ 
 });
 
-setInterval(function(){loadReply();}, 5000);
+setInterval(function(){
+
+    loadReply();
+}, 5000);
 
 function loadReply(){
 
@@ -133,15 +183,23 @@ function loadReply(){
         success: function(response){
 var data = $.parseJSON(response);
 if(data!=""){
-var result = "";
+var result = "<table class='table'>";
 $.each(data, function(i,item){
-    result+="<span class='fa fa-user'><b>&nbsp;"+item.fname+"</b></span>&nbsp;";
-    result+="<span class='speech'>";
-    result+="<span>"+item.body+"</span>";
+    result+="<tr>";
+    result+="<td>";
+    result+="<span class='speech' id='span_chat'>";
+    result+="<span class='fa fa-user' style='border-bottom: 1px solid #aaa;width:100%;padding-top:5px'><b>&nbsp;"+item.fname+"</b></span><br />";
+    result+="<span style='margin-top:5px;margin-top:10px'>"+item.body+"</span><br />";
+    result+="<span style='float:right;font-size:10px;margin-top:5px;color:grey'>"+item.created_at+"</span>";
+
     result+="</span><br /><br />";
+    result+="<td>";
+    result+="</tr>";
+
 
     
 });
+result+="</table>";
 var all_reply = $("#all_reply");
 all_reply.empty();  
 all_reply.append(result); 
@@ -150,6 +208,9 @@ all_reply.append(result);
       var all_reply = $("#all_reply");
       all_reply.empty();
  }
+  // if(user_id = "8"){
+  //   document.getElementById('span_chat').style.background = 'red'; 
+  // }
 }
     });
 }

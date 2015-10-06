@@ -55,7 +55,7 @@ return array(
 		'mysql' => array(
 			'driver'    => 'mysql',
 			'host'      => 'localhost',
-			'database'  => 'society_manage',
+			'database'  => 'society_manage1',
 			'username'  => 'root',
 			'password'  => '',
 			'charset'   => 'utf8',

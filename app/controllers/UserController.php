@@ -105,19 +105,15 @@ public function getLogin(){
 public function postLogin()
 {
  $userdata = array(
-                    
                 'username' => Input::get('username'),
                 'password' => Input::get('password'),
             );
 	 $rules = array(
-               
                   'username'=>'required',
                    'password'=>'required',
             );
 
 	 $validation = Validator::make($userdata, $rules);
-
-
        if($validation->fails())
        {     
      
@@ -127,7 +123,6 @@ public function postLogin()
        else
   {
 	$role = "admin";
-    // Login credentials
     $credentials = array(
         'username'    => Input::get('username'),
         'password' => Input::get('password'),

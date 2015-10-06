@@ -162,10 +162,11 @@ $tab = "3";
 	</div></div>
 </div>
 <script type="text/javascript">
+ var user_id = '<?php echo $user_id; ?>';
 $(document).ready(function(){
   // alert("hiiii")
   loadReply()
-  var user_id = '<?php echo $user_id; ?>';
+ 
   $('#all_chat').scrollTop($('#all_chat')[0].scrollHeight);
  
 });
@@ -187,12 +188,17 @@ var result = "<table class='table'>";
 $.each(data, function(i,item){
     result+="<tr>";
     result+="<td>";
-    result+="<span class='speech' id='span_chat'>";
+
+    if(item.sender_id == '5')
+      result+="<span class='speech' id='span_chat' style='float:right'>";
+    else
+      result+="<span class='speech' id='span_chat' style='float:left'>";
+      
     result+="<span class='fa fa-user' style='border-bottom: 1px solid #aaa;width:100%;padding-top:5px'><b>&nbsp;"+item.fname+"</b></span><br />";
     result+="<span style='margin-top:5px;margin-top:10px'>"+item.body+"</span><br />";
     result+="<span style='float:right;font-size:10px;margin-top:5px;color:grey'>"+item.created_at+"</span>";
 
-    result+="</span><br /><br />";
+    result+="</span><div style='clear:both'></div><br /><br />";
     result+="<td>";
     result+="</tr>";
 
@@ -208,9 +214,11 @@ all_reply.append(result);
       var all_reply = $("#all_reply");
       all_reply.empty();
  }
-  // if(user_id = "8"){
-  //   document.getElementById('span_chat').style.background = 'red'; 
-  // }
+ /*
+   if(user_id = "8"){
+     document.getElementById('span_chat').style.float = 'right'; 
+   }
+   */
 }
     });
 }

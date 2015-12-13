@@ -1,0 +1,22 @@
+{
+title:"पौष शु.२<br>उत्तराषाढा.०८.५७",
+start:"2016-01-11",
+description:"<center><h2>ठाणे डवले नगर सप्ताह ३</h2></center><div class='allDetail'>पौष शु.२<br>उत्तराषाढा.०८.५७<br>ठाणे डवले नगर सप्ताह ३</div>"
+},
+{
+title:"<img src='vivekanand.jpg' height='25' width='25'>स्वामी विवेकानंद जयंती",
+start:"2016-01-12",
+description:"<center><h2><img src='vivekanand.jpg' height='25' width='25'>स्वामी विवेकानंद जयंती</h2></center><div class='allDetail'>राष्ट्रीय युवा दिन <br>पौष शु.३<br>उत्तराषाढा.०७.५४<br>धनिष्ठा .३०.३९<br>ठाणे डवले नगर सप्ताह ४</div>"
+},
+{
+title:"शततारका .२९.१८<br>पौष शु.४",
+start:"2016-01-13",
+description:"<center><h2></h2></center><div class='allDetail'>पौष शु.४<br>शततारका .२९.१८<br>ठाणे डवले नगर सप्ताह ५</div>"
+},
+{
+title:"भोगी <br>धनुर्मास समाप्ती ",
+start:"2016-01-14",
+description:"<center><h2>भोगी </h2></center><div class='allDetail'>धनुर्मास समाप्ती<br>पूर्व भाद्रपदा.२७.५४<br> पौष शु.५<br>ठाणे डवले नगर सप्ताह ६</div>"
+},
+
+gdgdgdgdgdgdgdgdgddg

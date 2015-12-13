@@ -2,6 +2,18 @@
 
 /*---------------------------------------Start-Login/Register-routes----------------------------*/
 
+Route::get('/add_events',[
+'uses'=>'UserController@getAddEvents',
+]);
+
+Route::post('/add_events',[
+'method'=>'get',
+'uses'=>'UserController@postAddEvents',
+]);
+Route::get('/all_events',[
+'method'=>'get',
+'uses'=>'UserController@AddEvents',
+]);
 Route::get('/userVerification',[
     'uses'=>'UserController@getUserVerification'
 ]);

@@ -275,4 +275,27 @@ public function logout()
 			return json_encode("");
 	}
 
+	public function getAddEvents(){
+		return View::make('add_events');
+	}
+
+	
+	public function postAddEvents(){
+  
+     $user = new event;
+			
+		//	$user->description = Input::get('description');
+		  //  $user->save();
+		    $event = Input::get('description');
+		    $path = "event.txt";
+		    File::append($path,$event);
+		    return Redirect::to('add_events');
+
+	}
+
+	public function AddEvents(){
+  
+        $event = DB::table('events')->get();
+        return json_encode($event);
+}
 }

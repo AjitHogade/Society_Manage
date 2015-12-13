@@ -6,7 +6,8 @@
 	"type": "project",
 	"require": {
 		"laravel/framework": "4.2.*",
-		"twitter/bootstrap": "v3.0.0"
+		"twitter/bootstrap": "v3.0.0",
+		 "nesbot/carbon": "~1.14"
 	},
 	"autoload": {
 		"classmap": [

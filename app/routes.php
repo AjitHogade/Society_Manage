@@ -57,6 +57,10 @@ Route::post('/',[
 'uses'=>'UserController@postMemberLogin',
 ]);
 
+Route::get('/now', function()
+{
+    return View::make('admin.now');
+});
 Route::get('/logout', array(
     'as' => 'logout',
     'uses' => 'UserController@logout'

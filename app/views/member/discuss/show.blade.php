@@ -111,7 +111,7 @@ $tab = "3";
 
 	<div class="col-xs-9" >
 	<div class="panel panel-default" style = "width:100%;height:85%;padding-left:20px;overflow:auto;position:relative;"> 
-        <div  class="" style="height:75%;overflow:auto">
+        <div  id="test" style="height:75%;overflow:auto">
 	<center><h4>{{ $discuss->title }}</h4></center> 
 		<table  class="table" style="width:100%">
    
@@ -141,7 +141,7 @@ $tab = "3";
  </tbody>
 </table>
 <div id="all_chat" style="background-color:#E4E4E4;padding-left:10px;padding-right:5px;padding-top:10px;padding-bottom:10px"><h4>All Responses</h4>
-    <!--<p class="triangle-right right">But it could be any element you want.</p>-->
+    <p class="triangle-right right">But it could be any element you want.</p>
 <div class="all_reply" id="all_reply" style="overflow:auto">
 </div></div></div>
 <div class="child">
@@ -163,11 +163,15 @@ $tab = "3";
 </div>
 <script type="text/javascript">
  var user_id = '<?php echo $user_id; ?>';
+
 $(document).ready(function(){
   // alert("hiiii")
   loadReply()
+  $('button[type="submit"]').click({
+alert("hiii");
+
+ });
  
-  $('#all_chat').scrollTop($('#all_chat')[0].scrollHeight);
  
 });
 
@@ -183,13 +187,21 @@ function loadReply(){
         url:"/discuss/topicResponses/<?php echo  $discuss->id; ?>",
         success: function(response){
 var data = $.parseJSON(response);
+
 if(data!=""){
+
 var result = "<table class='table'>";
 $.each(data, function(i,item){
+  
+var date = item.created_at;
+var b = '<?php echo date("Y-m-d", strtotime('+item.created_at+')); ?>'
+var d = new Date("03/25/2015");
+//alert(b)
+
     result+="<tr>";
     result+="<td>";
 
-    if(item.sender_id == '5')
+    if(item.sender_id == user_id)
       result+="<span class='speech' id='span_chat' style='float:right'>";
     else
       result+="<span class='speech' id='span_chat' style='float:left'>";

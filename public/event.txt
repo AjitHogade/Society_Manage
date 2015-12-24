@@ -257,7 +257,9 @@ start:"2016-04-30",
 description:"<center><h2></h2></center><div class="allDetail">चैत्र कृ. ८<br>श्रवण २१. ५३<br>कालाष्ठमी पाचोगनेवाडी सप्ताह <br>प्रारंभ </div>"
  },
 
-MAY{
+MAY
+
+{
 title:"",
 start:"2016-05-01",
 description:"<center><h2></h2></center><div class="allDetail">चैत्र कृ. ९<br>धनिष्ठा १९.२२<br>महाराष्ट्र दिन मे दिन <br>आंतराष्ट्रीय कामगार दिन <br>वर्धनगड <br>पाचांगणेवाडी <br>सप्ताह २</div>" 
@@ -416,103 +418,10 @@ title:"",
 start:"2016-05-31",
 description:"<center><h2></h2></center><div class="allDetail">वैशाख कृ. १०<br>उ. भाद्रपदा २४. ४०</div>" 
 },
+
 JUNE
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-,{
+{
 title:"",
 start:"2016-06-01",
 description:"<center><h2></h2></center><div class="allDetail">वैशाख कृ. ११<br>रेवती २२. ३८<br>अपरा एकादशी </div>" 
@@ -671,3 +580,962 @@ description:"<center><h2></h2></center><div class="allDetail">ज्येष्
 <br>आशीर्वाद मंगल <br>कार्यालय मुक्काम </div>" 
 },
 
+
+JULY
+
+{
+title:"",
+start:"2016-07-01",
+description:"<center><h2></h2></center><div class="allDetail">ज्येष्ठ कृ . १२<br>कृत्तिका  २३. ५८<br>भागवत  एकादशी<br> संत निवृत्तीनाथ पुण्यतिथी<br>वडूथ मुक्काम  </div>" 
+},
+{
+title:"",
+start:"2016-07-02",
+description:"<center><h2></h2></center><div class="allDetail">ज्येष्ठ कृ . १३<br>रोहिणी २१. ५७<br>शनिप्रदोष <br>शिवरात्री <br>सातारा करंजेगाव मुक्काम </div>" 
+},
+{
+title:"",
+start:"2016-07-03",
+description:"<center><h2></h2></center><div class="allDetail">ज्येष्ठ कृ . १४<br>मृगशीर्ष  २०.०५<br>अमावास्या <br>प्रारंभ  सायं ०६.५३<br>कोरेगांव  सरस्वती<br>हायस्कूल  मुक्काम </div>" 
+},
+{
+title:"",
+start:"2016-07-04",
+description:"<center><h2></h2></center><div class="allDetail">ज्येष्ठ अमावस्या <br>आर्द्रा  १८.३२<br>दर्श अमावस्या <br>सोमवती अमावस्या<br>अमावस्या <br>समाप्ती सायं. ०४. ३१<br>पुसेगाव  मुक्काम </div>" 
+},
+{
+title:"",
+start:"2016-07-05",
+description:"<center><h2></h2></center><div class="allDetail">आषाढ शु. १<br>पुनर्वसू  १७. २७<br>आषाढ  मासारंभ <br>चंद्रदर्शन <br>सूर्याचा पुनर्वसू  <br>नक्षत्रप्रवेश<br>वाहन: कोल्हा 
+<br>महाकवी  कालिदास दिन <br>निढळ मराठी शाळा </div>" 
+},
+{
+title:"",
+start:"2016-07-06",
+description:"<center><h2></h2></center><div class="allDetail">आषाढ शु. २<br>पुष्प  १६. ५८<br>रमजान ईद <br>गुरूदेवांची जन्मभूमी<br>कोळेवाडी मुक्काम </div>" 
+},
+{
+title:"",
+start:"2016-07-07",
+description:"<center><h2></h2></center><div class="allDetail">आषाढ शु. ३<br>आश्लेषा  १७. ११<br>विनायक चतुर्थी <br>लोटांगण कार्यक्रम  होईल <br>पिंगळी मुक्काम </div>" 
+},
+{
+title:"",
+start:"2016-07-08",
+description:"<center><h2></h2></center><div class="allDetail">आषाढ शु. ४<br>मघा  १८. ०९<br>गोंदवले  मुक्काम </div>" 
+},
+{
+title:"",
+start:"2016-07-09",
+description:"<center><h2></h2></center><div class="allDetail">आषाढ शु. ५<br>पूर्वी १९. ५०<br>म्हसवड मुक्काम </div>" 
+},
+{
+title:"",
+start:"2016-07-10",
+description:"<center><h2></h2></center><div class="allDetail">आषाढ शु. ६<br>उत्तरा २२. ०८<br>कुमारषष्ठी <br>गुरुदेव दादांच्या <br>शुद्ध षष्ठी <br>निमित्त <br>धुळदेव येथे<br>पुष्पवृष्टीचा<br>कार्यक्रम होईल<br>श्री गुरुभक्त मंडळ <br>सांगोला वासुद प्रसाद <br>पिलीव मुक्काम </div>" 
+},
+{
+title:"",
+start:"2016-07-11",
+description:"<center><h2></h2></center><div class="allDetail">आषाढ शु. ७<br>हस्त २४. ५४<br>विवस्वत <br>सप्तमी <br>तांदळवाडी <br>मुक्काम </div>" 
+},
+{
+title:"",
+start:"2016-07-12",
+description:"<center><h2></h2></center><div class="allDetail">आषाढ शु. ८<br>चित्रा २७. ५३<br>दुर्गाष्टमी <br>उपरी <br>मुक्काम </div>" 
+},
+{
+title:"",
+start:"2016-07-13",
+description:"<center><h2></h2></center><div class="allDetail">आषाढ शु. ९<br>स्वाती अहोरात्र <br>वाखरी तळ <br>मुक्काम </div>" 
+},
+{
+title:"",
+start:"2016-07-14",
+description:"<center><h2></h2></center><div class="allDetail">आषाढ शु. १०<br>स्वाती ०६. ५१<br>पंढरपूर गोविंदपुरा मठ मुक्काम </div>" 
+},
+{
+title:"",
+start:"2016-07-15",
+description:"<center><h2></h2></center><div class="allDetail">आषाढ शु. ११<br>विशाखा ०९. ३५<br>पंढरपूर यात्रा <br>देवशयनी आषाढी एकादशी <br>चातुर्मास्यारंभ <br>पंढरपूर <br>गोविंदपुरा <br>मठ मुक्काम </div>" 
+},
+{
+title:"",
+start:"2016-07-16",
+description:"<center><h2></h2></center><div class="allDetail">आषाढ शु. १२<br>अनुराधा ११. ५५<br>आषाढा पायी वारी सोहळा सांगता </div>" 
+},
+{
+title:"",
+start:"2016-07-17",
+description:"<center><h2></h2></center><div class="allDetail">आषाढ शु. १३<br>ज्येष्ठा १३. ४५<br>प्रदोष </div>" 
+},
+{
+title:"",
+start:"2016-07-18",
+description:"<center><h2></h2></center><div class="allDetail">आषाढ शु. १४<br>मुळ १५. ०२<br>अण्णाभाऊ <br>साठे स्मृतिदिन <br>महाराष्ट्रीय <br>बेंदूर </div>" 
+},
+{
+title:"",
+start:"2016-07-19",
+description:"<center><h2></h2></center><div class="allDetail">आषाढ पोर्णिमा <br>पूर्वाषाढा  १५. ४७<br>गुरु पोर्णिमा <br>व्यासपूजा <br>सूर्याचा पुष्प <br>नक्षत्रप्रवेश<br>वाहन : मोर <br>श्री क्षेत्र जेऊर <br>गुरुपूजा <br>पोर्णिमा समाप्ती <br>उ. रात्रौ  ४. ४०</div>" 
+},
+{
+title:"",
+start:"2016-07-20",
+description:"<center><h2></h2></center><div class="allDetail">आषाढ कृ . १<br>उत्तराषाढा १६. ०३</div>" 
+},
+{
+title:"",
+start:"2016-07-21",
+description:"<center><h2></h2></center><div class="allDetail">आषाढ कृ . २<br>श्रवण १५.५४</div>" 
+},
+{
+title:"",
+start:"2016-07-22",
+description:"<center><h2></h2></center><div class="allDetail">आषाढ कृ . ३<br>धनिष्ठा १५. २४</div>" 
+},
+{
+title:"",
+start:"2016-07-23",
+description:"<center><h2></h2></center><div class="allDetail">आषाढ कृ . ४<br>शततारका १४. ३७<br>संकष्ट चतुर्थी चंद्रोदय ०९. ५४<br>लोकमान्य बाळ गंगाधर टिळक जयंती </div>" 
+},
+{
+title:"",
+start:"2016-07-24",
+description:"<center><h2></h2></center><div class="allDetail">आषाढ कृ . ५<br>पू . भाद्रपदा <br>१३ . ३७</div>" 
+},
+{
+title:"",
+start:"2016-07-25",
+description:"<center><h2></h2></center><div class="allDetail">आषाढ कृ . ६<br>उ. भाद्रपदा <br>१२. २५</div>" 
+},
+{
+title:"",
+start:"2016-07-26",
+description:"<center><h2></h2></center><div class="allDetail">आषाढ कृ . ७<br>रेवती ११.०६</div>" 
+},
+
+{
+title:"",
+start:"2016-07-27",
+description:"<center><h2></h2></center><div class="allDetail">आषाढ कृ . ८<br>अश्विनी ०९. ४०</div>" 
+},
+{
+title:"",
+start:"2016-07-28",
+description:"<center><h2></h2></center><div class="allDetail">आषाढ कृ . ९<br>भरणी ०८. १०</div>" 
+},
+{
+title:"",
+start:"2016-07-29",
+description:"<center><h2></h2></center><div class="allDetail">आषाढ कृ . १०<br>कृत्तिका ०६. ४०<br>रोहिणी २९. १३</div>" 
+},
+{
+title:"",
+start:"2016-07-30",
+description:"<center><h2></h2></center><div class="allDetail">आषाढ कृ . ११<br>मृगशीर्ष  २७. ५५<br>कामिका एकादशी </div>" 
+},
+{
+title:"",
+start:"2016-07-31",
+description:"<center><h2></h2></center><div class="allDetail">आषाढ कृ . १२/१३<br>आर्द्रा <br>२६. ५१<br>प्रदोष संत <br>नामदेव <br>महाराज <br>पुण्यतिथी </div>" 
+},
+
+AUGUST
+
+{
+title:"",
+start:"2016-08-01",
+description:"<center><h2></h2></center><div class="allDetail">आषाढ कृ. १४ शिवरात्री <br>पुनर्वसू  २६.०८<br>संत सावता माळी <br>पुण्यतिथी <br>अमावास्या प्रारंभ 
+<br>उ. रात्रौ ०३. १४</div>"
+ },
+{
+title:"",
+start:"2016-08-02",
+description:"<center><h2></h2></center><div class="allDetail">आषाढ अमावास्या<br>पुष्य २५.५१<br>दर्श अमावास्या दीपपूजा <br>सूर्याचा आश्लेषा <br>नक्षत्रप्रवेश वाहन: हत्ती <br>अमावास्या<br>प्रारंभ   उ. रात्रौ ०२. १४</div>"
+ },
+{
+title:"",
+start:"2016-08-03",
+description:"<center><h2></h2></center><div class="allDetail">श्रावण  शु. १<br> आश्लेषा २६.०६<br>श्रावण मासारंभ </div>"
+ },
+{
+title:"",
+start:"2016-08-04",
+description:"<center><h2></h2></center><div class="allDetail">श्रावण  शु. २<br>मघा २६.५७<br>चंद्रदर्शन </div>"
+ },
+{
+title:"",
+start:"2016-08-05",
+description:"<center><h2></h2></center><div class="allDetail">श्रावण  शु. ३<br>पूर्वा २८.२५</div>"
+ },
+{
+title:"",
+start:"2016-08-06",
+description:"<center><h2></h2></center><div class="allDetail">श्रावण  शु. ४<br>उत्तरा अहोरात्र <br>चतुर्थी  उपवास </div>"
+ },
+{
+title:"",
+start:"2016-08-07",
+description:"<center><h2></h2></center><div class="allDetail">श्रावण  शु. ५<br>उत्तरा ०६.२८<br>उत्तरा ०६.२८<br>आदित्य पूजन </div>"
+ },
+{
+title:"",
+start:"2016-08-08",
+description:"<center><h2></h2></center><div class="allDetail">श्रावण  शु. ५६<br>हस्त ०९.००<br>हिरण्यकेशी सुपोदानवर्ण षष्ठी </div>"
+ },
+{
+title:"",
+start:"2016-08-09",
+description:"<center><h2></h2></center><div class="allDetail">श्रावण  शु. ६<br>चित्रा ११.५२<br>श्रियाळ  षष्ठी मंगळागौरी <br>अगस्ती  दर्शन <br>श्रीगुरुदेव दादांची <br>शुध्द षष्ठी <br>श्री गुरुभक्त विष्णू घोरे <br>यमगरवाडी प्रसाद </div>"
+ },
+{
+title:"",
+start:"2016-08-10",
+description:"<center><h2></h2></center><div class="allDetail">श्रावण  शु. ७<br>स्वाती १४. ५०<br>तुलसीदास <br>जयंती </div>"
+ },
+{
+title:"",
+start:"2016-08-11",
+description:"<center><h2></h2></center><div class="allDetail">श्रावण  शु. ८<br>विशाखा १७. ४३<br>दुर्गाष्टमी</div>"
+ },
+{
+title:"",
+start:"2016-08-12",
+description:"<center><h2></h2></center><div class="allDetail">श्रावण  शु. ९<br>अनुराधा २०. १५</div>"
+ },
+{
+title:"",
+start:"2016-08-13",
+description:"<center><h2></h2></center><div class="allDetail">श्रावण  शु. १०<br>ज्येष्ठा २२. १९</div>"
+ },
+{
+title:"",
+start:"2016-08-14",
+description:"<center><h2></h2></center><div class="allDetail">श्रावण  शु. ११<br>मूळ २३. ४५<br>पुत्रदा <br>एकादशी </div>"
+ },
+{
+title:"",
+start:"2016-08-15",
+description:"<center><h2></h2></center><div class="allDetail">श्रावण  शु. १२<br>पूर्वाषाढा २४. ३३<br>स्वातंत्र्य <br>दिन <br>सोमप्रदोष </div>"
+ },
+{
+title:"",
+start:"2016-08-16",
+description:"<center><h2></h2></center><div class="allDetail">श्रावण  शु. १३<br>उत्तराषाढा २४. ४२<br>सूर्याचा मघा <br>नक्षत्रप्रवेश <br>वाहन <br>: बेडूक 
+<br>कोर्पोलि किर्तन </div>"
+ },
+{
+title:"",
+start:"2016-08-17",
+description:"<center><h2></h2></center><div class="allDetail">श्रावण  शु. १४<br>श्रवण २४. १६<br>नारळी पौर्णिमा <br>पतेती <br>पौर्णिमा <br>प्रारंभ <br>सायं ०४. २७
+<br>कोर्पोलि <br>गुरुपुजा </div>"
+ },
+{
+title:"",
+start:"2016-08-18",
+description:"<center><h2></h2></center><div class="allDetail">श्रावण पौर्णिमा <br>धनिष्ठा २३.२१<br> रक्षाबंधन <br>सुर्यग्रहण<br>भारतातुन <br>दिसनार नाही <br> त्यामुळे वेदादी 
+<br>नियम पाळू <br>नयेत <br>पौर्णिमा समाप्ती <br>दुपारी ०२. ५६</div>"
+ },
+{
+title:"",
+start:"2016-08-19",
+description:"<center><h2></h2></center><div class="allDetail">श्रावण  कृ.   १<br>शततारका २२. ०३</div>"
+ },
+{
+title:"",
+start:"2016-08-20",
+description:"<center><h2></h2></center><div class="allDetail">श्रावण  कृ.   २<br>पू. भाद्रपदा २०. २९</div>"
+ },
+{
+title:"",
+start:"2016-08-21",
+description:"<center><h2></h2></center><div class="allDetail">श्रावण  कृ.   ३/४<br>उ. भाद्रपदा <br>१८. ४५<br>आदित्य पूजन <br>संकष्ट चतुर्थी <br>चंद्रोदय ०९. २१</div>"
+ },
+{
+title:"",
+start:"2016-08-22",
+description:"<center><h2></h2></center><div class="allDetail">श्रावण  कृ.   ५<br>रेवती १६. ५८<br>मिरडे <br>सप्ताह <br>आरंभ </div>"
+ },
+{
+title:"",
+start:"2016-08-23",
+description:"<center><h2></h2></center><div class="allDetail">श्रावण  कृ.   ६<br>अश्विनी १५.१२<br>मिरडे<br>सप्ताह २</div>"
+ },
+{
+title:"",
+start:"2016-08-24",
+description:"<center><h2></h2></center><div class="allDetail">श्रावण  कृ.   ७<br>भरणी १३. ३३<br>श्रीकृष्ण जयंती <br>(उपवास)<br>श्री ज्ञानेश्वर <br>महाराज<br>जयंती आपेगांव 
+<br>मिरडे सप्ताह ३</div>"
+ },
+{
+title:"",
+start:"2016-08-25",
+description:"<center><h2></h2></center><div class="allDetail">श्रावण  कृ.   ८<br>कृत्तिका १२. ०५<br>कालाष्टमी <br>गोपाळकाला<br>मिरडे सप्ताह 
+<br>काला </div>"
+ },
+{
+title:"",
+start:"2016-08-26",
+description:"<center><h2></h2></center><div class="allDetail">श्रावण  कृ.   ९<br>रोहिणी १०. ५१</div>"
+ },
+{
+title:"",
+start:"2016-08-27",
+description:"<center><h2></h2></center><div class="allDetail">श्रावण  कृ.   १०<br>मृगशीर्ष ०९. ५४</div>"
+ },
+{
+title:"",
+start:"2016-08-28",
+description:"<center><h2></h2></center><div class="allDetail">श्रावण  कृ.   ११<br>आर्द्रा ०९. १७<br>अजा <br>एकादशी </div>"
+ },
+{
+title:"",
+start:"2016-08-29",
+description:"<center><h2></h2></center><div class="allDetail">श्रावण  कृ.   १२<br>पुनर्वसु ०९. ०२<br>सोमप्रदोश <br>संत सेना <br>महाराज  <br>पुण्यतिथी </div>"
+ },
+{
+title:"",
+start:"2016-08-30",
+description:"<center><h2></h2></center><div class="allDetail">श्रावण  कृ.   १३<br>पुष्य ०९. १२<br>सूर्याचा <br>पूर्वा <br>नक्षत्रप्रवेश <br>वाहन<br>गाढव<br>शिवरात्री </div>"
+ },
+{
+title:"",
+start:"2016-08-31",
+description:"<center><h2></h2></center><div class="allDetail">श्रावण  कृ.   १४<br>आश्लेषा ०९. ४८<br>दर्श पिठोरी 
+<br>अमावास्या <br>अमावास्याप्ररंभ<br>दुपारी<br>०२. ०३ </div>"
+ },
+
+ SEPTEMBER
+
+ {
+title:"",
+start:"2016-09-01",
+description:"<center><h2></h2></center><div class="allDetail">श्रावण अमावास्या <br>मघा १०. ५२<br>सूर्यग्रहण <br>(भारतातुन दिसणार नसल्यामुळे वेधादि नियम पाळू नयेत.)<br>
+अमावास्या <br>समाप्ती <br>दुपारी ०२. ३२</div>" 
+},
+{
+title:"",
+start:"2016-09-02",
+description:"<center><h2></h2></center><div class="allDetail">भाद्रपद शु. १<br>पूर्वा १२. २५<br>चंद्रदर्शन </div>" 
+},
+{
+title:"",
+start:"2016-09-03",
+description:"<center><h2></h2></center><div class="allDetail">भाद्रपद शु. २<br>उत्तरा १४. २६</div>" 
+},
+{
+title:"",
+start:"2016-09-04",
+description:"<center><h2></h2></center><div class="allDetail">भाद्रपद शु. ३<br>हस्त १६. ५२<br>हरितालिका तृतीया <br>स्वर्णगौरी वृत </div>" 
+},
+{
+title:"",
+start:"2016-09-05",
+description:"<center><h2></h2></center><div class="allDetail">भाद्रपद शु. ४<br>चित्रा १९. ३९<br>श्रीगणेश चतुर्थी <br>शिक्षक दिन <br>चंद्रदर्शन निषेध <br>चंद्रास्त रात्रौ ९. ३२</div>" 
+},
+{
+title:"",
+start:"2016-09-06",
+description:"<center><h2></h2></center><div class="allDetail">भाद्रपद शु. ५<br>स्वाती २२. ३७<br>ऋषीपंचमी </div>" 
+},
+{
+title:"",
+start:"2016-09-07",
+description:"<center><h2></h2></center><div class="allDetail">भाद्रपद शु. ६<br>विशाखा २५. ३६<br>सूर्यषष्ठी <br>श्रीगुरुदेव दादांची <br>शुध्द षष्ठी <br>श्री गुरुभक्त मंडळ 
+<br>मिरडे व शिरूर प्रसाद </div>" 
+},
+{
+title:"",
+start:"2016-09-08",
+description:"<center><h2></h2></center><div class="allDetail">भाद्रपद शु. ७<br>अनुराधा २८. २५<br>ज्येष्ठागौरी आवाहन </div>" 
+},
+{
+title:"",
+start:"2016-09-09",
+description:"<center><h2></h2></center><div class="allDetail">भाद्रपद शु. ८<br>ज्येष्ठा अहोरात्र <br>दुर्गाष्टमी <br>ज्येष्ठागौरी पूजन </div>" 
+},
+{
+title:"",
+start:"2016-09-10",
+description:"<center><h2></h2></center><div class="allDetail">भाद्रपद शु. ९<br>ज्येष्ठा ०६. ५१<br>ज्येष्ठागौरी विसर्जन / दोरक धारण <br> सकाळी ६. ५२ नंतर </div>" 
+},
+{
+title:"",
+start:"2016-09-11",
+description:"<center><h2></h2></center><div class="allDetail">भाद्रपद शु. ९<br>मूळ ०८. ४३<br>वेदांताचार्य <br>दिनेश <br>महाराज <br>रसाळ <br>(भैया)
+<br>यांचा वाढदिवस </div>" 
+},
+{
+title:"",
+start:"2016-09-12",
+description:"<center><h2></h2></center><div class="allDetail">भाद्रपद शु. १०<br>पूर्वाषाढा <br>०९. ५५<br>बकरी ईद </div>" 
+},
+{
+title:"",
+start:"2016-09-13",
+description:"<center><h2></h2></center><div class="allDetail">भाद्रपद शु. ११<br>उत्तराषाढा १०. २३<br>परिवर्तिनी <br>एकादशी <br>सूर्याचा <br>उत्तरा <br>नक्षत्रप्रवेश <br>वाहन : घोडा 
+<br>वामन जयंती </div>" 
+},
+{
+title:"",
+start:"2016-09-14",
+description:"<center><h2></h2></center><div class="allDetail">भाद्रपद शु. १२ / १३<br>श्रवण  १०. ०७<br>प्रदोष </div>" 
+},
+{
+title:"",
+start:"2016-09-15",
+description:"<center><h2></h2></center><div class="allDetail">भाद्रपद शु. १४<br>धनिष्ठा ०९. ०९<br>अनंत चतुर्दशी <br>पौर्णिमा <br>प्रारंभ <br>उ. रात्रौ <br>०३. १५</div>" 
+},
+{
+title:"",
+start:"2016-09-16",
+description:"<center><h2></h2></center><div class="allDetail">भाद्रपद पौर्णिमा  प्रौष्ठपदी पौर्णिमा <br>शततारका ०७. ३८<br>पू. भाद्रपद २९. ३८<br>भागवत सप्ताह <br>समाप्ती 
+<br>रात्रौ १२. ३५</div>" 
+},
+{
+title:"",
+start:"2016-09-17",
+description:"<center><h2></h2></center><div class="allDetail">भाद्रपद कृ. १<br>उ. भाद्रपद २७. २१<br>महालयारंभ </div>" 
+},
+{
+title:"",
+start:"2016-09-18",
+description:"<center><h2></h2></center><div class="allDetail">भाद्रपद कृ. २<br>रेवती २४. ५५</div>" 
+},
+{
+title:"",
+start:"2016-09-19",
+description:"<center><h2></h2></center><div class="allDetail">भाद्रपद कृ. ३<br>अश्विनी २२. २८<br>संकष्ट <br>चतुर्थी <br>चंद्रोदय <br>०८. ४९</div>" 
+},
+{
+title:"",
+start:"2016-09-20",
+description:"<center><h2></h2></center><div class="allDetail">भाद्रपद कृ. ४<br>भरणी २०. १०</div>" 
+},
+{
+title:"",
+start:"2016-09-21",
+description:"<center><h2></h2></center><div class="allDetail">भाद्रपद कृ. ५ / ६<br>कृत्तिका १८०. ९<br>आषाढ कृ. ३<br>श्री क्षेत्र <br>जेऊर <br>संस्थान <br>अध्यक्ष <br>तुकाराम रसाळ 
+<br>भाऊ यांचा वाढदिवस </div>" 
+},
+{
+title:"",
+start:"2016-09-22",
+description:"<center><h2></h2></center><div class="allDetail">भाद्रपद कृ. ७<br>रोहिणी १६. </div>" 
+},
+{
+title:"",
+start:"2016-09-23",
+description:"<center><h2></h2></center><div class="allDetail">भाद्रपद कृ. ८<br>मृगशीर्ष १५. २१<br>कालाष्टमी </div>" 
+},
+{
+title:"",
+start:"2016-09-24",
+description:"<center><h2></h2></center><div class="allDetail">भाद्रपद कृ. ९<br>आर्द्रा १४. ४२<br>अविधवा नवमी </div>" 
+},
+{
+title:"",
+start:"2016-09-25",
+description:"<center><h2></h2></center><div class="allDetail">भाद्रपद कृ. १०<br>पुनर्वसु १४. ३६</div>" 
+},
+{
+title:"",
+start:"2016-09-26",
+description:"<center><h2></h2></center><div class="allDetail">भाद्रपद कृ. ११<br>पुष्य १५. ०२<br>इंदिरा <br>एकादशी <br>सूर्याचा हस्त <br>नक्षत्रप्रवेश <br>वाहन: उंदीर </div>" 
+},
+{
+title:"",
+start:"2016-09-27",
+description:"<center><h2></h2></center><div class="allDetail">भाद्रपद कृ. १२<br>आश्लेषा  १५. ५९</div>" 
+},
+{
+title:"",
+start:"2016-09-28",
+description:"<center><h2></h2></center><div class="allDetail">भाद्रपद कृ. १३<br>मघा १७. २४</div>" 
+},
+{
+title:"",
+start:"2016-09-29",
+description:"<center><h2></h2></center><div class="allDetail">भाद्रपद कृ. १४<br>पूर्वा १९. ४<br>शिवरात्री <br>अमावास्या <br>प्रारंभ <br>उ. रात्रौ <br>०३. ५५</div>" 
+},
+{
+title:"",
+start:"2016-09-30",
+description:"<center><h2></h2></center><div class="allDetail">भाद्रपद अमावास्या<br>उत्तरा २१. २६<br>सर्वपित्री दर्श अमावास्या</div>" 
+},
+
+OCTOBER
+
+{
+title:"",
+start:"2016-10-01",
+description:"<center><h2></h2></center><div class="allDetail">आश्विन शु. १<br>हस्त २३. ५७<br>घटस्थापना आश्विन मासारंभ <br>अमावास्या समाप्ती पाहते ०५. ४१</div>" 
+},
+{
+title:"",
+start:"2016-10-02",
+description:"<center><h2></h2></center><div class="allDetail">आश्विन शु. १<br>चित्रा २६. ४३<br>चंद्रदर्शन <br>महात्मा गांधी जयंती <br>लालबहादूर शास्त्री जयंती </div>" 
+},
+{
+title:"",
+start:"2016-10-03",
+description:"<center><h2></h2></center><div class="allDetail">आश्विन शु. २<br>स्वाती २९<br>४०</div>" 
+},
+{
+title:"",
+start:"2016-10-04",
+description:"<center><h2></h2></center><div class="allDetail">आश्विन शु. ३<br>विशाखा अहोरात्र </div>" 
+},
+{
+title:"",
+start:"2016-10-05",
+description:"<center><h2></h2></center><div class="allDetail">आश्विन शु. ४<br>विशाखा ०८. ४२<br>विनायक चतुर्थी </div>" 
+},
+{
+title:"",
+start:"2016-10-06",
+description:"<center><h2></h2></center><div class="allDetail">आश्विन शु. ५<br>अनुराधा ११. ४०<br>ललिता पंचमी </div>" 
+},
+{
+title:"",
+start:"2016-10-07",
+description:"<center><h2></h2></center><div class="allDetail">आश्विन शु. ६<br>ज्येष्ठा १४. २४<br>सरस्वती आवाहन <br>दुपारी २. २४ नंतर <br>श्रीगुरुदेव दादांची <br>शुध्द षष्ठी <br>श्री गुरुभक्त मंडळ <br>किरपे कराड प्रसाद </div>" 
+},
+{
+title:"",
+start:"2016-10-08",
+description:"<center><h2></h2></center><div class="allDetail">आश्विन शु. ७<br>मूळ १६. ४५</div>" 
+},
+{
+title:"",
+start:"2016-10-09",
+description:"<center><h2></h2></center><div class="allDetail">आश्विन शु. ८<br>पूर्वाषाढा १८. ३३<br>दुर्गाष्टमी <br>महाष्टमी 
+</div>" 
+},
+{
+title:"",
+start:"2016-10-10",
+description:"<center><h2></h2></center><div class="allDetail">आश्विन शु. ९<br>उत्तराषाढा १९. ३९<br>सूर्याचा चित्रा <br>नक्षत्रप्रवेश <br>वाहन : गाढव </div>" 
+},
+{
+title:"",
+start:"2016-10-11",
+description:"<center><h2></h2></center><div class="allDetail">आश्विन शु. १०<br>श्रवण १९. ५९<br>दसरा<br>विजयादशमी <br>विजय मुहूर्त दु. २. २२<br>पासून <br>३. ०९ पर्यंत <br>नवी मुंबई <br>कामोठे येथे <br>गुरुभाक्तांचा<br>सिमोल्लंघन मेळावा </div>" 
+},
+{
+title:"",
+start:"2016-10-12",
+description:"<center><h2></h2></center><div class="allDetail">आश्विन शु. ११<br>धनिष्ठा १९. ३१<br>पाशांकुशा एकादशी <br>मोहरम <br>(ताजिया)</div>" 
+},
+{
+title:"",
+start:"2016-10-13",
+description:"<center><h2></h2></center><div class="allDetail"><br><br></div>" 
+},
+{
+title:"",
+start:"2016-10-14",
+description:"<center><h2></h2></center><div class="allDetail">आश्विन शु. १२<br>शततारका १८. १८<br>प्रदोष<br>खरमारवाडी <br>गुरुपुज </div>" 
+},
+{
+title:"",
+start:"2016-10-15",
+description:"<center><h2></h2></center><div class="allDetail">आश्विन शु. १४<br>उ. भाद्रपदा १४. ००<br>जागतिक अंध दिन <br>कोजागरी पौर्णिमा <br>पौर्णिमा प्रारंभ  दुपारी ०१. २५<br>शिंगाडेवाडी<br>गुरुपुजा  </div>" 
+},
+{
+title:"",
+start:"2016-10-16",
+description:"<center><h2></h2></center><div class="allDetail">आश्विन पौर्णिमा / आश्विन कृ. १<br>रेवती <br>११. १४<br>पौर्णिमा <br>समाप्ती<br>सकाळी <br>०९. ५<br>मलटण 
+<br>शिंदेवाडी गुरुपुजा </div>" 
+},
+{
+title:"",
+start:"2016-10-17",
+description:"<center><h2></h2></center><div class="allDetail">आश्विन कृ. २<br>आश्विन ०८. १६<br>भरणी २९. १८<br>उरळगाव<br>गुरुपुजा </div>" 
+},
+{
+title:"",
+start:"2016-10-18",
+description:"<center><h2></h2></center><div class="allDetail">आश्विन कृ. ३<br>कृत्तिका २६. ३२<br>आरणगाव <br>गुरुपुजा </div>" 
+},
+{
+title:"",
+start:"2016-10-19",
+description:"<center><h2></h2></center><div class="allDetail">आश्विन कृ. ४<br>रोहिणी २४. ०७<br>करक चतुर्थी <br>संकष्ट <br>चतुर्थी <br>चंद्रोदय 
+<br>०९.१७<br>शिरसगाव,<br>येळेवस्ती  गुरुपुजा </div>" 
+},
+{
+title:"",
+start:"2016-10-20",
+description:"<center><h2></h2></center><div class="allDetail">आश्विन कृ. ५<br>मृगशीर्ष २२. १४<br>लोणी व्यंकनाथ कोळपे वस्ती गुरुपुजा </div>" 
+},
+{
+title:"",
+start:"2016-10-21",
+description:"<center><h2></h2></center><div class="allDetail">आश्विन कृ. ६<br>आर्द्रा २०. ५८<br>कामठेवाडी सप्ताह आरंभ </div>" 
+},
+{
+title:"",
+start:"2016-10-22",
+description:"<center><h2></h2></center><div class="allDetail">आश्विन कृ. ७<br>पुनर्वसु २०. २६<br>कालाष्टमी <br>कामठेवाडी सप्ताह २</div>" 
+},
+{
+title:"",
+start:"2016-10-23",
+description:"<center><h2></h2></center><div class="allDetail">आश्विन कृ. ८<br>पुष्य २०. ३७<br>सूर्याचा स्वाती <br>नक्षत्रप्रवेश <br>वाहन : मेंढा <br>कामठेवाडी <br>सप्ताह ३</div>" 
+},
+{
+title:"",
+start:"2016-10-24",
+description:"<center><h2></h2></center><div class="allDetail">आश्विन कृ. ९<br>आश्लेषा २१. ३०<br>कामठेवाडी <br>सप्ताह काला </div>" 
+},
+{
+title:"",
+start:"2016-10-25",
+description:"<center><h2></h2></center><div class="allDetail">आश्विन कृ. १०<br>मघा २३. ०१</div>" 
+},
+{
+title:"",
+start:"2016-10-26",
+description:"<center><h2></h2></center><div class="allDetail">आश्विन कृ. ११<br>पूर्वा २५. ०३<br>रमा एकादशी <br>वसुबारस </div>" 
+},
+{
+title:"",
+start:"2016-10-27",
+description:"<center><h2></h2></center><div class="allDetail">आश्विन कृ. १२<br>उत्तरा २७. २८<br>गुरुद्रादशी </div>" 
+},
+{
+title:"",
+start:"2016-10-28",
+description:"<center><h2></h2></center><div class="allDetail">आश्विन कृ. १३<br>हस्त ३०. १०<br>प्रदोष शिवरात्री <br>धनत्रयोदशी यमदीपदान <br>धन्वंतरी <br>जयंती </div>" 
+},
+{
+title:"",
+start:"2016-10-29",
+description:"<center><h2></h2></center><div class="allDetail">आश्विन कृ. १४<br>चित्रा अहोरात्र <br>नरक चतुर्दशी अभ्यंगस्नान <br>चंद्रदोय पहाटे ०५. १७<br>अमावास्या <br>प्रारंभ रात्रौ ०८. ३९</div>" 
+},
+{
+title:"",
+start:"2016-10-30",
+description:"<center><h2></h2></center><div class="allDetail">आश्विन अमावास्या <br>चित्रा ०९. ०२<br>दर्श अमावास्या <br>अभ्यंगस्नान<br>लक्ष्मीपूजन <br>सायं ०६. ०४<br>ते रात्रौ ८. ३६<br>अमावास्या समाप्ती <br>रात्रौ ११. ०७<br>श्री गुरुदेव अण्णांचा वाढदिवस </div>" 
+},
+{
+title:"",
+start:"2016-10-31",
+description:"<center><h2></h2></center><div class="allDetail">कार्तिक शु. १<br>स्वाती १२. ००<br>बलिप्रतिपदा दीपावली पाडवा <br>विक्रमासंवत  २०७३<br>कार्तिक मासारंभ <br>सरदार पटेल <br>जयंती 
+</div>" 
+},
+
+NOVEMBER
+
+{
+title:"",
+start:"2016-11-01",
+description:"<center><h2></h2></center><div class="allDetail">कार्तिक शु. २<br>विशाखा १४. ५९<br>चंद्रदर्शन यमद्वितीया <br>भाऊबीज </div>"
+ },
+{
+title:"",
+start:"2016-11-02",
+description:"<center><h2></h2></center><div class="allDetail">कार्तिक शु. ३<br>अनुराधा १७. ५६<br>रसाळ ज्योत प्रस्थान,<br>मुंबई </div>"
+ },
+{
+title:"",
+start:"2016-11-03",
+description:"<center><h2></h2></center><div class="allDetail">कार्तिक शु. ४<br>ज्येष्ठा २०. ४५<br>विनायक चतुर्थी </div>"
+ },
+{
+title:"",
+start:"2016-11-04",
+description:"<center><h2></h2></center><div class="allDetail">कार्तिक शु. ४<br>मूळ २३. १९<br>जेऊर  समाधी सोहळा आरंभ </div>"
+ },
+{
+title:"",
+start:"2016-11-05",
+description:"<center><h2></h2></center><div class="allDetail">कार्तिक शु. ५<br>पूर्वाषाढा २५. ३२<br>पांडव पंचमी <br>ज्ञानपंचमी <br>जेऊर समाधी सोहळा </div>"
+ },
+{
+title:"",
+start:"2016-11-06",
+description:"<center><h2></h2></center><div class="allDetail">कार्तिक शु. ६<br>उत्तराषाढा २७. १३<br>जेऊर समाधी <br>सोहळा <br>गुरुदेव दादांची शुद्ध <br>षष्ठी समाधी उत्सव दिवस <br>गुरुभक्त मंडळ <br>महाराष्ट्र राज्य महाप्रसाद <br>ठाणे पाटण ग्रुप </div>"
+ },
+{
+title:"",
+start:"2016-11-07",
+description:"<center><h2></h2></center><div class="allDetail">कार्तिक शु. ७<br>श्रवण २८. १७<br>जेऊर समाधी <br>सोहळा सांगता </div>"
+ },
+{
+title:"",
+start:"2016-11-08",
+description:"<center><h2></h2></center><div class="allDetail">कार्तिक शु. ८<br>धनिष्ठा २८. ३६<br>दुर्गाष्ठमी <br>गोपाष्ठमी </div>"
+ },
+{
+title:"",
+start:"2016-11-09",
+description:"<center><h2></h2></center><div class="allDetail">कार्तिक शु. ९<br>शततारका २८. ०८<br>कुष्मांड नवमी </div>"
+ },
+{
+title:"",
+start:"2016-11-10",
+description:"<center><h2></h2></center><div class="allDetail">कार्तिक शु. १०<br>पू. भाद्रपदा २६. ५५<br>प्रबोधिनी स्मार्त एकादशी </div>"
+ },
+{
+title:"",
+start:"2016-11-11",
+description:"<center><h2></h2></center><div class="allDetail">कार्तिक शु. ११/१२<br>उ. भाद्रपदा २४. ५९<br>भागवत एकादशी <br>चातुर्मास्य समाप्ती <br>तुलसी <br>विवाहारंभ <br><br>पंढरपूर <br>यात्रा</div>"
+ },
+{
+title:"",
+start:"2016-11-12",
+description:"<center><h2></h2></center><div class="allDetail">कार्तिक शु. १३<br>रेवती २२. ३०<br>शनिप्रदोष श्री गोरक्षनाथ प्रकट दिन </div>"
+ },
+{
+title:"",
+start:"2016-11-13",
+description:"<center><h2></h2></center><div class="allDetail">कार्तिक शु. १४<br>अश्विनी<br>१९. ३६</div>"
+ },
+{
+title:"",
+start:"2016-11-14",
+description:"<center><h2></h2></center><div class="allDetail">कार्तिक पौर्णिमा <br>भरणी १६. २७<br>तुलसीविवाह <br>समाप्ती <br>त्रिपुरारी<br>पौर्णिमा<br>गुरु नानक जयंती <br>बालदिन<br>पंडित नेहरू <br>जयंती <br>पौर्णिमा समाप्ती  <br>रात्रो ०७. २२</div>"
+ },
+{
+title:"",
+start:"2016-11-15",
+description:"<center><h2></h2></center><div class="allDetail">कार्तिक कृ. १<br>कृत्तिका १३. १७</div>"
+ },
+{
+title:"",
+start:"2016-11-16",
+description:"<center><h2></h2></center><div class="allDetail">कार्तिक कृ. २<br>रोहिणी १०. १७</div>"
+ },
+{
+title:"",
+start:"2016-11-17",
+description:"<center><h2></h2></center><div class="allDetail"><br><br></div>"
+ },
+{
+title:"",
+start:"2016-11-18",
+description:"<center><h2></h2></center><div class="allDetail">कार्तिक कृ. ५<br>पुनर्वसू २८. १५</div>"
+ },
+{
+title:"",
+start:"2016-11-19",
+description:"<center><h2></h2></center><div class="allDetail">कार्तिक कृ. ६<br>पुष्य २७. ४३</div>"
+ },
+{
+title:"",
+start:"2016-11-20",
+description:"<center><h2></h2></center><div class="allDetail">कार्तिक कृ. ७<br>आश्लेषा <br>२८. ०१<br>भानुसमाप्ती </div>"
+ },
+{
+title:"",
+start:"2016-11-21",
+description:"<center><h2></h2></center><div class="allDetail">कार्तिक कृ. ८  <br>मघा २९. ०८<br>कालाष्ठमी </div>"
+ },
+{
+title:"",
+start:"2016-11-22",
+description:"<center><h2></h2></center><div class="allDetail">कार्तिक कृ. ९<br>पूर्वा अहोरात्र </div>"
+ },
+{
+title:"",
+start:"2016-11-23",
+description:"<center><h2></h2></center><div class="allDetail">कार्तिक कृ. १०<br>पूर्वा ०६. ५७</div>"
+ },
+{
+title:"",
+start:"2016-11-24",
+description:"<center><h2></h2></center><div class="allDetail">कार्तिक कृ. ११<br>उत्तरा ०९. १९<br>उत्पत्ती एकादशी <br>आळंदी वारी </div>"
+ },
+{
+title:"",
+start:"2016-11-25",
+description:"<center><h2></h2></center><div class="allDetail">कार्तिक कृ. ११<br>हस्त १२. ०५<br>भागवत एकादशी <br>आळंदी वारी, आळंदी यात्रा </div>"
+ },
+{
+title:"",
+start:"2016-11-26",
+description:"<center><h2></h2></center><div class="allDetail">कार्तिक कृ. १२<br>चित्रा १५. ०२<br>शनिप्रदोष <br>आळंदी वारी समाप्त </div>"
+ },
+{
+title:"",
+start:"2016-11-27",
+description:"<center><h2></h2></center><div class="allDetail">कार्तिक कृ. १३<br>स्वाती १८. ०४<br>शिवरात्री <br>श्री ज्ञानेश्वर महाराज समाधी <br>उत्सव आळंदी </div>"
+ },
+{
+title:"",
+start:"2016-11-28",
+description:"<center><h2></h2></center><div class="allDetail">कार्तिक कृ. १४<br>विशाखा २१. ०३<br>महात्मा ज्योतिबा फुले पुण्यतिथी <br>सोमवती अमावस्या <br>दुपारी ३. २० नंतर <br>अमावस्या प्रारंभ दुपारी ३. २०</div>"
+ },
+{
+title:"",
+start:"2016-11-29",
+description:"<center><h2></h2></center><div class="allDetail">कार्तिक अमावस्या अनुराधा २३. ५५<br>दर्श अमावस्या <br>अमावस्या<br>समाप्ती <br>सायं ०५. ४७</div>"
+ },
+{
+title:"",
+start:"2016-11-30",
+description:"<center><h2></h2></center><div class="allDetail">मार्गशीर्ष शु. १<br>ज्येष्ठा २६. २६<br>देव दीपावली</div>"
+ },
+
+ DECEMBER
+
+ 
+{
+title:"",
+start:"2016-12-01",
+description:"<center><h2></h2></center><div class="allDetail">मार्गशीर्ष शु. २<br>मूळ २९. ०४</div>" 
+},
+{
+title:"",
+start:"2016-12-02",
+description:"<center><h2></h2></center><div class="allDetail">मार्गशीर्ष शु. ३<br>पूर्वाषाढा अहोरात्र </div>" 
+},
+{
+title:"",
+start:"2016-12-03",
+description:"<center><h2></h2></center><div class="allDetail">मार्गशीर्ष शु. ४<br>पूर्वाषाढा ०७. १५<br>विनायक चतुर्थी <br>जागतिक अपंग दिन </div>" 
+},
+{
+title:"",
+start:"2016-12-04",
+description:"<center><h2></h2></center><div class="allDetail">मार्गशीर्ष शु. ५<br>उत्तराषाढा ०९. ०६</div>" 
+},
+{
+title:"",
+start:"2016-12-05",
+description:"<center><h2></h2></center><div class="allDetail">मार्गशीर्ष शु. ६<br>श्रवण १०. ३१<br>चंपाषष्ठी स्कंदषष्ठी <br>गुरुदेव दादांची शुद्ध <br>षष्ठी श्री गुरुभक्त <br>मंडळ टाकवे, मावळ <br>प्रसाद </div>" 
+},
+{
+title:"",
+start:"2016-12-06",
+description:"<center><h2></h2></center><div class="allDetail">मार्गशीर्ष शु. ७<br>धनिष्ठा ११. २४<br>मानखुर्द सप्ताह आरंभ </div>" 
+},
+{
+title:"",
+start:"2016-12-07",
+description:"<center><h2></h2></center><div class="allDetail"><br><br></div>" 
+},
+{
+title:"",
+start:"2016-12-08",
+description:"<center><h2></h2></center><div class="allDetail">मार्गशीर्ष शु. ८<br>शततारका ११. ४०<br>दुर्गाष्ठमी <br>बुधाष्ठमी सप्ताह ३</div>" 
+},
+{
+title:"",
+start:"2016-12-09",
+description:"<center><h2></h2></center><div class="allDetail">मार्गशीर्ष शु. १०<br>उ. भाद्रपदा १०. ११<br>मानखुर्द सप्ताह ४</div>" 
+},
+{
+title:"",
+start:"2016-12-10",
+description:"<center><h2></h2></center><div class="allDetail">मार्गशीर्ष शु. ११<br>रेवती ०८. २८<br>अश्विनी ३०. १२<br>मोक्षदा एकादशी <br>मौनी एकादशी <br>मानखुर्द सप्ताह५</div>" 
+},
+{
+title:"",
+start:"2016-12-11",
+description:"<center><h2></h2></center><div class="allDetail">मार्गशीर्ष शु. १२<br>भरणी २७. ३३<br>प्रदोष मानखुर्द <br>सप्ताह ६</div>" 
+},
+{
+title:"",
+start:"2016-12-12",
+description:"<center><h2></h2></center><div class="allDetail">मार्गशीर्ष शु. १३<br>कृत्तिका २४. ३९<br>श्रीदत्त <br>जयंती (गाणगापूर क्षेत्री)<br>मानखुर्द सप्ताह काला /div>" 
+},
+{
+title:"",
+start:"2016-12-13",
+description:"<center><h2></h2></center><div class="allDetail">मार्गशीर्ष शु. १४/मार्गशीर्ष पौर्णिमा <br>रोहिणी २१. ४१<br> श्रीदत्त जयंती <br>(महाराष्ट्र)<br>पौर्णिमा प्रारंभ 
+<br>सकाळी ०९. १६</div>" 
+},
+{
+title:"",
+start:"2016-12-14",
+description:"<center><h2></h2></center><div class="allDetail">मार्गशीर्ष कृ. १<br>मृगशीर्ष १८. ५१<br>पौर्णिमा समाप्ती पहाटे ०५. ३५</div>" 
+},
+{
+title:"",
+start:"2016-12-15",
+description:"<center><h2></h2></center><div class="allDetail">मार्गशीर्ष कृ. २<br>आर्दा १६. २२</div>" 
+},
+{
+title:"",
+start:"2016-12-16",
+description:"<center><h2></h2></center><div class="allDetail">मार्गशीर्ष कृ. ३<br>पुनर्वसू १४. २४<br>संकष्ट चतुर्थी चंद्रोदय ०८. ४०</div>" 
+},
+{
+title:"",
+start:"2016-12-17",
+description:"<center><h2></h2></center><div class="allDetail">मार्गशीर्ष कृ. ४<br>पुष्य १३. ०८</div>" 
+},
+{
+title:"",
+start:"2016-12-18",
+description:"<center><h2></h2></center><div class="allDetail">मार्गशीर्ष कृ. ५<br>आश्लेषा <br>१२. ३९</div>" 
+},
+{
+title:"",
+start:"2016-12-19",
+description:"<center><h2></h2></center><div class="allDetail">मार्गशीर्ष कृ. ६<br>मघा <br>१३. ०१</div>" 
+},
+{
+title:"",
+start:"2016-12-20",
+description:"<center><h2></h2></center><div class="allDetail">मार्गशीर्ष कृ. ७<br>संत <br>गाडगेबाबा पुण्यतिथी </div>" 
+},
+{
+title:"",
+start:"2016-12-21",
+description:"<center><h2></h2></center><div class="allDetail">मार्गशीर्ष कृ. ८<br>उत्तरा १६. १०<br>कालाष्ठमी </div>" 
+},
+{
+title:"",
+start:"2016-12-22",
+description:"<center><h2></h2></center><div class="allDetail">मार्गशीर्ष कृ. ९<br>हस्त १८. ४०<br>करिदिन</div>" 
+},
+{
+title:"",
+start:"2016-12-23",
+description:"<center><h2></h2></center><div class="allDetail">मार्गशीर्ष कृ. ०<br>चित्र २१. ३३<br>श्री गोंदवलेकर महाराज पुण्यतिथी </div>" 
+},
+{
+title:"",
+start:"2016-12-24",
+description:"<center><h2></h2></center><div class="allDetail">मार्गशीर्ष कृ. ११<br>स्वाती २४. ३५<br>सफला एकादशी </div>" 
+},
+{
+title:"",
+start:"2016-12-25",
+description:"<center><h2></h2></center><div class="allDetail">मार्गशीर्ष कृ. १२<br>विशाखा २७. ३६<br>ख्रिसमस नाताळ </div>" 
+},
+{
+title:"",
+start:"2016-12-26",
+description:"<center><h2></h2></center><div class="allDetail">मार्गशीर्ष कृ. १३<br>अनुराधा ३०. २६<br>सोमप्रदोष </div>" 
+},
+{
+title:"",
+start:"2016-12-27",
+description:"<center><h2></h2></center><div class="allDetail">मार्गशीर्ष कृ. १३<br>ज्येष्ठा अहोरात्र <br>शिवरात्री </div>" 
+},
+{
+title:"",
+start:"2016-12-28",
+description:"<center><h2></h2></center><div class="allDetail">मार्गशीर्ष कृ. १४<br>ज्येष्ठा ०९. ०१<br>दर्शवेळा अमावस्या <br>अमावस्या <br>प्रारंभ <br>सकाळी <br>१०. ३६<br>श्री संत <br>सेवागिरी <br>पुसेगाव रथोत्सव </div>" 
+},
+{
+title:"",
+start:"2016-12-29",
+description:"<center><h2></h2></center><div class="allDetail">मार्गशीर्ष अमावस्या <br>मूळ ११. १६<br>अमावस्या समाप्ती दुपारी १२. २३<br>ठाणे <br>डौलेनगर सप्ताह <br>आरंभ </div>" 
+},
+{
+title:"",
+start:"2016-12-30",
+description:"<center><h2></h2></center><div class="allDetail">पौष शु. १<br>पूर्वाषाढा १३. १२<br>चंद्रदर्शन <br>पौष मासारंभ <br>ठाणे <br>डौलेनगर सप्ताह २</div>" 
+},
+{
+title:"",
+start:"2016-12-31",
+description:"<center><h2></h2></center><div class="allDetail">पौष शु. २<br>उत्तराषाढा १४. ४७<br>ठाणे <br>डौलेनगर सप्ताह ३ सूचना - ठाणे <br>डौलेनगर सप्ताह <br>पुढील <br>१७ साली जानेवारी ४ तारखेस <br>काला </div>" 
+},
